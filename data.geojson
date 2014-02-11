@@ -6,7 +6,7 @@
       "properties": {
         "Historic Point": "Kirkland Hall",
         "Description": "This is my new comment",
-        "url": "http://en.wikipedia.org/wiki/Washington,_D.C."
+        "url": "http://upload.wikimedia.org/wikipedia/commons/b/b7/Vandy-Kirkland-2.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -21,7 +21,7 @@
       "properties": {
         "Historic Point": "Colleges at Kissam",
         "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/3/3f/Vandy-Kissam_Hall.jpg"
       },
       "geometry": {
         "type": "Point",
