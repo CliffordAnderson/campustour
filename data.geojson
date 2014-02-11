@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Historic Point": "Kirkland Hall",
+        "Description": "This is a comment",
+        "url": "http://en.wikipedia.org/wiki/Washington,_D.C."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.802567",
+          "36.148322"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Historic Point": "Colleges at Kissam",
+        "Description": "This is a comment",
+        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.80195",
+          "36.149128"
+        ]
+      }
+    }
+  ]
+}
