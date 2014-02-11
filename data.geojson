@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "Historic Point": "Kirkland Hall",
-        "Description": "This is a comment",
+        "Description": "This is my new comment",
         "url": "http://en.wikipedia.org/wiki/Washington,_D.C."
       },
       "geometry": {
