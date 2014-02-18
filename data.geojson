@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Kirkland Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Kirkland Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -19,9 +19,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Colleges at Kissam",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Colleges at Kissam",
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -34,9 +33,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Commodore's Statue",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Commodore's Statue",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -49,9 +48,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Barnard Hall & Vanderbilt Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Barnard Hall & Vanderbilt Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -64,9 +63,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Old Gym",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Old Gym",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -79,9 +78,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Furman Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Furman Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -94,9 +93,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Buttrick Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Buttrick Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -109,9 +108,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Garland Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Garland Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -124,9 +123,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Calhoun Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Calhoun Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -139,9 +138,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Student Cottages on West Side Row",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Student Cottages on West Side Row",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -154,9 +153,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Bishop Johnson Center",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Bishop Johnson Center",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -169,9 +168,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Vaughn Home",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Vaughn Home",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -184,9 +183,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Alumni Memorial Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Alumni Memorial Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -199,9 +198,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Benton Chapel",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Benton Chapel",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -214,9 +213,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Neely Auditorium",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Neely Auditorium",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -229,9 +228,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Central Library & Library Lawn",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Central Library & Library Lawn",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -244,9 +243,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Statue of Harold Stirling Vanderbilt",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Statue of Harold Stirling Vanderbilt",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -259,9 +258,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Tolman Hall & Old Kissam Cornerstone",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Tolman Hall & Old Kissam Cornerstone",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -274,9 +273,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "McGill Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "McGill Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -289,9 +288,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "The Bur Oak",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "The Bur Oak",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -304,9 +303,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Old Central",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Old Central",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -319,9 +318,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Three Bishops & Garland",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Three Bishops & Garland",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -334,9 +333,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Old Mechanical",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Old Mechanical",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -349,9 +348,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Wyatt Center",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Wyatt Center",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -364,9 +363,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Memorial Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Memorial Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -379,9 +378,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Peabody Library",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Peabody Library",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -394,9 +393,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "East Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "East Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -409,9 +408,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "North Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "North Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -424,9 +423,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Cohen Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Cohen Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -439,9 +438,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Ginkgo Biloba",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Ginkgo Biloba",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -454,9 +453,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Furman Hall",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Furman Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -469,9 +468,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Old Science",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Old Science",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
@@ -484,9 +483,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Historic Point": "Sample",
-        "Description": "This is a comment",
-        "Photo Link": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.JPG"
+        "title": "Sample",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
       },
       "geometry": {
         "type": "Point",
