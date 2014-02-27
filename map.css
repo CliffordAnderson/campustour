@@ -1,9 +1,28 @@
-.navbar-default {
-    background-color: black;
-}
+/* University Library Header Style */
 
-.navbar {
-    margin-bottom: 0px;
+@media (min-width: 768px) {
+    #header-logo {
+        float: left;
+        width: 305px;
+        height: 107px;
+        margin-top: 10px;
+        background: url('http://www.library.vanderbilt.edu/assets/images/logo-vandy-library.png');
+        background-repeat: no-repeat;
+        background-color: transparent;
+        margin-right: 15px;
+    }
+
+    .navbar-default {
+        background-color: black;
+    }
+
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .navbar-nav.navbar-right:last-child {
+        margin-right: 0px;
+    };
 }
 
 /* University Library Footer Style */
@@ -40,178 +59,165 @@
     vertical-align: middle;
 }
 
-#footer {
-    display:block;
+@media (min-width: 768px) {
+
+    #footer {
+        display:block;
+    }
+
+    #footer-primary {
+        border-top: 5px solid #dda85b;
+        background: #333;
+        color: #999;
+        padding: 0 1.25em;
+    }
+
+    #footer-primary .wrap {
+        background: url("http://www.library.vanderbilt.edu/assets/images/bg-footer.png") no-repeat 0 0;
+        color: #999;
+    }
+
+    #footer-primary .p {
+        margin: 0 0 1.5em 0;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+
+
+    #footer-primary .footer-top:before, #footer-primary .footer-top:after {
+        content: " ";
+        display: table;
+    }
+
+    #footer-primary .footer-top:after {
+        clear: both;
+    }
+
+    #footer-callout {
+        display: block;
+        float: left;
+        margin-right: 2.35765%;
+        width: 74.41059%;
+        margin-top: 2em;
+    }
+
+    #footer-callout .callout-block {
+        padding-left: 110px;
+    }
+
+    #footer-callout .give-now {
+        background: url("http://library.vanderbilt.edu/assets/images/text-give-now.png") no-repeat 0 0;
+        height: 72px;
+        float: left;
+        width: 83px;
+        color: transparent;
+        font: 0/0 a;
+        text-shadow: none;
+    }
+
+    #nav-footer-social:last-child {
+        margin-right: 0;
+    }
+
+    #nav-footer-social {
+        margin-top: 2.7em;
+        text-align: right;
+        display: block;
+        float: left;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+    }
+
+    #nav-footer-social {
+        margin-bottom: 2.0em;
+    }
+
+    #footer-primary .footer-bottom {
+        border-top: 1px solid #555;
+        font-size: 0.857em;
+    }
+
+    #library-address {
+        display: block;
+        float: left;
+        margin-right: 2.35765%;
+        width: 57.35098%;
+        margin-top: 1.0em;
+        margin-bottom: 1.0em;
+        font-weight: 400;
+    }
+
+    #library-address>li {
+        display: inline-block;
+    }
+
+    #library-address>li:after {
+        color: #555;
+        content: '|';
+        display: inline-block;
+        padding: 0 0.5em 0 0.55em;
+    }
+
+    #nav-footer-social .nav-title {
+        color: #dda85b;
+        font-family: "Roboto",Helvetica,sans-serif;
+        font-size: 1.071em;
+    }
+
+    #nav-footer-social>ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    #nav-footer-social>ul>li {
+        margin: 0 0 0 0.2em;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    #nav-footer-social>ul>li>a {
+        background: #222 url("http://www.library.vanderbilt.edu/assets/images/icon-social.png") no-repeat 6px 5px;
+        border-radius: 3px;
+        display: block;
+        height: 27px;
+        width: 27px;
+        color: transparent;
+        font: 0/0 a;
+        text-shadow: none;
+        -webkit-transition: background-color 0.2s ease-in-out;
+        -moz-transition: background-color 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    #nav-footer-social>ul>li.facebook>a {
+        background-position: -17px 5px;
+    }
+
+    #nav-footer-social>ul>li.rss>a {
+        background-position: -40px 5px;
+    }
+
+    #nav-footer-tools {
+        text-align: right;
+        display: block;
+        margin-top: 1.0em;
+        margin-bottom: 1.0em;
+        font-weight: 400;
+    }
+
+    #nav-footer-tools:last-child {
+        margin-right: 0;
+    }
+
+    #nav-footer-tools>li {
+        display: inline-block;
+    }
 }
 
-#footer-primary {
-    border-top: 5px solid #dda85b;
-    background: #333;
-    color: #999;
-    padding: 0 1.25em;
-}
-
-#footer-primary .wrap {
-    background: url("http://www.library.vanderbilt.edu/assets/images/bg-footer.png") no-repeat 0 0;
-    min-height: 264px;
-    color: #999;
-}
-
-#footer-primary .p {
-    margin: 0 0 1.5em 0;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-}
-
-#footer-primary .footer-top {
-    margin-bottom: 30px;
-}
-
-#footer-primary .footer-top:before, #footer-primary .footer-top:after {
-    content: " ";
-    display: table;
-}
-
-#footer-primary .footer-top:after {
-    clear: both;
-}
-
-#footer-callout {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 74.41059%;
-    margin-top: 2em;
-}
-
-#footer-callout .callout-block {
-    padding-left: 110px;
-}
-
-#footer-callout .give-now {
-    background: url("http://library.vanderbilt.edu/assets/images/text-give-now.png") no-repeat 0 0;
-    height: 72px;
-    float: left;
-    width: 83px;
-    color: transparent;
-    font: 0/0 a;
-    text-shadow: none;
-}
-
-#nav-footer-social:last-child {
-    margin-right: 0;
-}
-
-#nav-footer-social {
-    margin-top: 2.7em;
-    text-align: right;
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-}
-
-#nav-footer-social {
-    margin-bottom: 2.0em;
-}
-
-#footer-primary .footer-bottom {
-    border-top: 1px solid #555;
-    font-size: 0.857em;
-}
-
-#library-address {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 57.35098%;
-    margin-top: 1.0em;
-    margin-bottom: 1.0em;
-    font-weight: 400;
-}
-
- #library-address>li {
-    display: inline-block;
-}
-
-#library-address>li:after {
-    color: #555;
-    content: '|';
-    display: inline-block;
-    padding: 0 0.5em 0 0.55em;
-}
-
-#nav-footer-social .nav-title {
-    color: #dda85b;
-    font-family: "Roboto",Helvetica,sans-serif;
-    font-size: 1.071em;
-}
-
-#nav-footer-social>ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-#nav-footer-social>ul>li {
-    margin: 0 0 0 0.2em;
-    vertical-align: top;
-    display: inline-block;
-}
-
-#nav-footer-social>ul>li>a {
-    background: #222 url("http://www.library.vanderbilt.edu/assets/images/icon-social.png") no-repeat 6px 5px;
-    border-radius: 3px;
-    display: block;
-    height: 27px;
-    width: 27px;
-    color: transparent;
-    font: 0/0 a;
-    text-shadow: none;
-    -webkit-transition: background-color 0.2s ease-in-out;
-    -moz-transition: background-color 0.2s ease-in-out;
-    transition: background-color 0.2s ease-in-out;
-}
-
-#nav-footer-social>ul>li.facebook>a {
-    background-position: -17px 5px;
-}
-
-#nav-footer-social>ul>li.rss>a {
-    background-position: -40px 5px;
-}
-
-#nav-footer-tools {
-    text-align: right;
-    display: block;
-    margin-top: 1.0em;
-    margin-bottom: 1.0em;
-    font-weight: 400;
-}
-
-#nav-footer-tools:last-child {
-    margin-right: 0;
-}
-
-#nav-footer-tools>li {
-    display: inline-block;
-}
-
-
-
-#header-logo {
-    float: left;
-    width: 305px;
-    height: 107px;
-    margin-top: 10px;
-    background: url('http://www.library.vanderbilt.edu/assets/images/logo-vandy-library.png');
-    background-repeat: no-repeat;
-    background-color: transparent;
-    margin-right: 15px;
-}
-
-#map { position:absolute; height:100%; width:100%; }
+#map { position:absolute; height:67%; width:100%;}
 
 .popup {
     text-align: center;
