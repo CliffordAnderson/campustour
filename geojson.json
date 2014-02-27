@@ -1,0 +1,499 @@
+var geoJson = [{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kirkland Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Vandy-kirkland.jpg/208px-Vandy-kirkland.jpg", "Kirkland Hall is home to Vanderbilt Administration"],["http://upload.wikimedia.org/wikipedia/commons/e/e1/Vandy_Old_Main.jpg", "Old Main"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.802567",
+          "36.148322"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Colleges at Kissam",
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.80195",
+          "36.149128"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Commodore's Statue",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.802897",
+          "36.14915"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Barnard Hall & Vanderbilt Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.803656",
+          "36.148503"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Old Gym",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.804792",
+          "36.148297"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Furman Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.80195",
+          "36.149128"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Buttrick Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.802331",
+          "36.145858"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Garland Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.801744",
+          "36.146544"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Calhoun Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.801531",
+          "36.146994"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Student Cottages on West Side Row",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.804897",
+          "36.147444"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bishop Johnson Center",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.803089",
+          "36.145708"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Vaughn Home",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.802961",
+          "36.145406"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Alumni Memorial Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.803467",
+          "36.147872"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Benton Chapel",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.800642",
+          "36.146183"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Neely Auditorium",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.803292",
+          "36.147283"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Central Library & Library Lawn",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.800675",
+          "36.145733"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Statue of Harold Stirling Vanderbilt",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.801981",
+          "36.145853"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Tolman Hall & Old Kissam Cornerstone",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.804342",
+          "36.147317"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "McGill Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.804622",
+          "36.147661"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Bur Oak",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.802239",
+          "36.146489"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Old Central",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.80235",
+          "36.146894"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Three Bishops & Garland",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.8014",
+          "36.146869"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Old Mechanical",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.800236",
+          "36.147447"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wyatt Center",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.798975",
+          "36.140311"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Memorial Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.797925",
+          "36.140653"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Peabody Library",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.799042",
+          "36.142447"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "East Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.79825",
+          "36.140489"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "North Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.799564",
+          "36.141019"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cohen Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.799158",
+          "36.141508"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ginkgo Biloba",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.79775",
+          "36.142672"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Furman Hall",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.801225",
+          "36.147806"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Old Science",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.801911",
+          "36.147156"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Sample",
+        
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-86.80196",
+          "36.14918"
+        ]
+      }
+    }
+  ]
+}];
