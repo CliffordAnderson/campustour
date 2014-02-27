@@ -2,623 +2,94 @@
 <html>
 <head>
     <meta charset=utf-8 />
-    <title>Vandy Campus Map</title>
-
+    <title>Historical Map</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
-
-    <style>
-    body { margin:0; padding:0; }
-    #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="map.css" rel='stylesheet'/>
 </head>
 <body>
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+      <div class="header col-md-4">
+        <a href="http://www.library.vanderbilt.edu">
+          <span id="header-logo">&nbsp;</span>
+        </a>
+      </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Historical Map</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+  <div id='map'></div>
+  <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
 
-
-    <style>
-    .popup {
-        text-align: center;
-    }
-    .popup .slideshow {
-        width: 100%;
-    }
-    .popup .slideshow .image {
-        display: none;
-    }
-    .popup .slideshow .active {
-        display: block;
-    }
-    .popup .slideshow img {
-        width: 100%;
-    }
-    .popup .slideshow .caption {
-        background: #eee;
-        padding: 8px;
-    }
-    .popup .cycle {
-        height: 30px;
-        margin-top: 5px;
-        padding-top: 5px;
-    }
-    .popup .cycle a.prev {
-        float: left;
-    }
-    .popup .cycle a.next {
-        float: right;
-    }
-    </style>
-
-    <div id='map'></div>
-
-    <script>
-    var map = L.mapbox.map('map', 'examples.map-9ijuk24y');
-
-    var geoJson = [{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Kirkland Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Vandy-kirkland.jpg/208px-Vandy-kirkland.jpg", "Kirkland Hall is home to Vanderbilt Administration"],["http://upload.wikimedia.org/wikipedia/commons/e/e1/Vandy_Old_Main.jpg", "Old Main"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.802567",
-          "36.148322"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Colleges at Kissam",
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.80195",
-          "36.149128"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Commodore's Statue",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.802897",
-          "36.14915"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Barnard Hall & Vanderbilt Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.803656",
-          "36.148503"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Old Gym",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.804792",
-          "36.148297"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Furman Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.80195",
-          "36.149128"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Buttrick Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.802331",
-          "36.145858"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Garland Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.801744",
-          "36.146544"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Calhoun Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.801531",
-          "36.146994"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Student Cottages on West Side Row",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.804897",
-          "36.147444"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Bishop Johnson Center",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.803089",
-          "36.145708"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Vaughn Home",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.802961",
-          "36.145406"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Alumni Memorial Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.803467",
-          "36.147872"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Benton Chapel",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.800642",
-          "36.146183"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Neely Auditorium",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.803292",
-          "36.147283"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Central Library & Library Lawn",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.800675",
-          "36.145733"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Statue of Harold Stirling Vanderbilt",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.801981",
-          "36.145853"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Tolman Hall & Old Kissam Cornerstone",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.804342",
-          "36.147317"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "McGill Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.804622",
-          "36.147661"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "The Bur Oak",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.802239",
-          "36.146489"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Old Central",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.80235",
-          "36.146894"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Three Bishops & Garland",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.8014",
-          "36.146869"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Old Mechanical",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.800236",
-          "36.147447"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Wyatt Center",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.798975",
-          "36.140311"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Memorial Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.797925",
-          "36.140653"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Peabody Library",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.799042",
-          "36.142447"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "East Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.79825",
-          "36.140489"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "North Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.799564",
-          "36.141019"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Cohen Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.799158",
-          "36.141508"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Ginkgo Biloba",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.79775",
-          "36.142672"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Furman Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.801225",
-          "36.147806"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Old Science",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.801911",
-          "36.147156"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Sample",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.80196",
-          "36.14918"
-        ]
-      }
-    }
-  ]
-}];
-
-// Add custom popup html to each marker
-map.markerLayer.on('layeradd', function(e) {
-    var marker = e.layer;
-    var feature = marker.feature;
-    var images = feature.properties.images
-    var slideshowContent = '';
-
-    for(var i = 0; i < images.length; i++) {
-        var img = images[i];
-
-        slideshowContent += '<div class="image' + (i === 0 ? ' active' : '') + '">' +
-        '<img src="' + img[0] + '" />' +
-        '<div class="caption">' + img[1] + '</div>' +
-        '</div>';
-    }
-
-    // Create custom popup content
-    var popupContent =  '<div id="' + feature.properties.id + '" class="popup">' +
-    '<h2>' + feature.properties.title + '</h2>' +
-    '<div class="slideshow">' +
-    slideshowContent +
-    '</div>' +
-    '<div class="cycle">' +
-    '<a href="#" class="prev">&laquo; Previous</a>' +
-    '<a href="#" class="next">Next &raquo;</a>' +
-    '</div>'
-    '</div>';
-
-    // http://leafletjs.com/reference.html#popup
-    marker.bindPopup(popupContent,{
-        closeButton: false,
-        minWidth: 320
-    });
-});
-
-// Add features to the map
-map.markerLayer.setGeoJSON(geoJson);
-
-// This example uses jQuery to make selecting items in the slideshow easier.
-// Download it from http://jquery.com
-$('#map').on('click', '.popup .cycle a', function() {
-    var $slideshow = $('.slideshow'),
-    $newSlide;
-
-    if ($(this).hasClass('prev')) {
-        $newSlide = $slideshow.find('.active').prev();
-        if ($newSlide.index() < 0) {
-            $newSlide = $('.image').last();
-        }
-    } else {
-        $newSlide = $slideshow.find('.active').next();
-        if ($newSlide.index() < 0) {
-            $newSlide = $('.image').first();
-        }
-    }
-
-    $slideshow.find('.active').removeClass('active').hide();
-    $newSlide.addClass('active').show();
-    return false;
-});
-
-map.setView([36.145733, -86.800675], 16);
-</script>
-
-
+        <footer id="footer-primary">
+          <div class="wrap">
+            <div class="footer-top">
+              <div id="footer-callout">
+                <a class="give-now" href="https://webapp.mis.vanderbilt.edu/olga/pub/landing?appealCode=Q13A8">Give Now</a>
+                <div class="callout-block">
+                  <div class="callout-title">Support the Jean and Alexander Heard Library</div>
+                  <p>Gifts to the  Library support the learning and research needs of the entire Vanderbilt community.</p>
+                  <a class="btn-more" href="http://library.vanderbilt.edu/giving/">Learn More</a>
+                </div>
+              </div>
+              <nav id="nav-footer-social">
+                <span class="nav-title">Follow Us</span>
+                <ul>
+                  <li class="twitter">
+                    <a href="http://twitter.com/heardlibrary">Twitter</a>
+                  </li>
+                  <li class="facebook">
+                    <a href="http://www.facebook.com/vulibrary">Facebook</a>
+                  </li>
+                  <li class="rss">
+                    <a href="http://newsonline.library.vanderbilt.edu/?feed=rss2">RSS</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer-bottom">
+              <ul id="library-address">
+                <li>Jean and Alexander Heard Library</li>
+                <li>419 21st Avenue South</li>
+                <li>Nashville, TN 37203</li>
+                <li>615-322-7100</li>
+              </ul>
+              <ul id="nav-footer-tools">
+                <li class="hours">
+                  <a href="http://library.vanderbilt.edu/hours.php">Hours</a>
+                </li>
+                <li class="about">
+                  <a href="http://library.vanderbilt.edu/about/index.php">About</a>
+                </li>
+                <li class="employment">
+                  <a href="http://library.vanderbilt.edu/about/employment.php">Employment</a>
+                </li>
+                <li class="staff">
+                  <a href="http://library.vanderbilt.edu/staff.php">Staff</a>
+                </li>
+                <li class="contact">
+                  <a href="http://library.vanderbilt.edu/about/contact.php">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+  </nav>
+<script src="map.json"></script> 
 </body>
 </html>
