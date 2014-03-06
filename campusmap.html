@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset=utf-8 />
-    <title>Historical Map</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="css/map.css" rel='stylesheet'/>
+  <meta charset=utf-8 />
+  <title>Historical Map</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/map.css" rel='stylesheet'/>
 </head>
 <body>
   <div class="navbar navbar-default navbar-static-top">
@@ -28,20 +28,17 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#">Historical Map</a></li>
-          <li><a href='#' id='geolocate'>Find me</a>
-          <li><a href="#about">About</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
+          <li class="active"><a href='#' id='geolocate'>Find me</a>
+            <li class="active"><a href="#about">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
-  </div>
-  <div id='map'></div>
+    <div id='map'></div>
     <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-      
-        
     </div>
-  <script src="scripts/map.geojson"></script>
-  <script src="scripts/map.js"></script> 
-  <script src="scripts/locate.js"></script>
-
-</body>
-</html>
+    <script src="scripts/map.geojson"></script>
+    <script src="scripts/map.js"></script> 
+    <script src="scripts/locate.js"></script>
+  </body>
+  </html>
