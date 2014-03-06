@@ -13,13 +13,12 @@ if (!navigator.geolocation) {
     geolocate.onclick = function (e) {
         e.preventDefault();
         e.stopPropagation();
-        map.locate();
+        map.locate({setView: true, maxZoom: 16});
     };
 }
 
 // Once we've got a position, zoom and center the map.
 map.on('locationfound', function(e) {
-     map.fitBounds(e.bounds);
 
     var loc = 
     	{
