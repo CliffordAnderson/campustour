@@ -17,21 +17,9 @@ if (!navigator.geolocation) {
     };
 }
 
-// Once we've got a position, zoom and center the map
-// on it, and add a single marker.
+// Once we've got a position, zoom and center the map.
 map.on('locationfound', function(e) {
     map.fitBounds(e.bounds);
-
-    map.featureLayer.setGeoJSON({
-        type: "Feature",
-        geometry: {
-            type: "Point",
-            coordinates: [e.latlng.lng, e.latlng.lat]
-        },
-        properties: {
-            'marker-color': '#000',
-        }
-    });
 });
 
 // If the user chooses not to allow their location
