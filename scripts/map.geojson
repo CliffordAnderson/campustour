@@ -1,12 +1,12 @@
-{
+var geoJson = [{
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
         "title": "Kirkland Hall",
-        
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VanderbiltKirlandTower2.jpg"]]
+        "marker-symbol": "star-stroked",
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Vandy-kirkland.jpg/208px-Vandy-kirkland.jpg", "Kirkland Hall is home to Vanderbilt Administration"],["http://upload.wikimedia.org/wikipedia/commons/e/e1/Vandy_Old_Main.jpg", "Old Main"]]
       },
       "geometry": {
         "type": "Point",
@@ -496,4 +496,4 @@
       }
     }
   ]
-}
+}];

@@ -1,4 +1,4 @@
-// Copied verbatim from https://www.mapbox.com/mapbox.js/example/v1.0.0/geolocation/
+// Copied more or less verbatim from https://www.mapbox.com/mapbox.js/example/v1.0.0/geolocation/
 
 var geolocate = document.getElementById('geolocate');
 
@@ -30,12 +30,8 @@ map.on('locationfound', function(e) {
         },
         properties: {
             'marker-color': '#000',
-            'marker-symbol': 'star-stroked'
         }
     });
-
-    // And hide the geolocation button
-    geolocate.parentNode.removeChild(geolocate);
 });
 
 // If the user chooses not to allow their location
