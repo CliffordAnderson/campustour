@@ -8,7 +8,7 @@ var geolocate = document.getElementById('geolocate');
 // See this chart of compatibility for details:
 // http://caniuse.com/#feat=geolocation
 if (!navigator.geolocation) {
-    geolocate.innerHTML = 'geolocation is not available';
+    geolocate.innerHTML = ':(';
 } else {
     geolocate.onclick = function (e) {
         e.preventDefault();
@@ -19,11 +19,28 @@ if (!navigator.geolocation) {
 
 // Once we've got a position, zoom and center the map.
 map.on('locationfound', function(e) {
-    map.fitBounds(e.bounds);
+     map.fitBounds(e.bounds);
+
+    var loc = 
+    	{
+        type: "Feature",
+        geometry: {
+            type: "Point",
+            coordinates: [e.latlng.lng, e.latlng.lat]
+        },
+        properties: {
+            'marker-color': '#F00',
+            'marker-symbol': 'heart'
+        }
+    };
+
+    geoJson["locations"] = geoJson.push(loc);
+    map.featureLayer.setGeoJSON(geoJson);
+
 });
 
 // If the user chooses not to allow their location
 // to be shared, display an error message.
 map.on('locationerror', function() {
-    geolocate.innerHTML = 'position could not be found';
+    geolocate.innerHTML = ':(';
 });

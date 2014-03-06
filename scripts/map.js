@@ -33,7 +33,8 @@ map.markerLayer.on('layeradd', function(e) {
     marker.bindPopup(popupContent,{
         closeButton: false,
         maxWidth: 200,
-		autoPan: true
+		autoPan: true,
+        keepInView: true
     });
 });
 
