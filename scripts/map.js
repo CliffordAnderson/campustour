@@ -1,3 +1,4 @@
+// code adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/markers-with-image-slideshow/
 
 var map = L.mapbox.map('map', 'examples.map-9ijuk24y');
 

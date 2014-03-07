@@ -25,7 +25,12 @@
     };
 }
 
+/* Map Div */
+
 #map { position:absolute; height:79%; width:100%;}
+
+/* MapBox Popup Marker Styling */
+/* Adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/markers-with-image-slideshow/ */
 
 .popup {
     text-align: center;

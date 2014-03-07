@@ -1,12 +1,9 @@
-// Copied more or less verbatim from https://www.mapbox.com/mapbox.js/example/v1.0.0/geolocation/
+//Adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/geolocation/
 
 var geolocate = document.getElementById('geolocate');
 
 // This uses the HTML5 geolocation API, which is available on
 // most mobile browsers and modern browsers, but not in Internet Explorer
-//
-// See this chart of compatibility for details:
-// http://caniuse.com/#feat=geolocation
 if (!navigator.geolocation) {
     geolocate.innerHTML = ':(';
 } else {
@@ -17,9 +14,8 @@ if (!navigator.geolocation) {
     };
 }
 
-// Once we've got a position, zoom and center the map.
+// Once we've got a position, add a tooltip to indicate the user's position
 map.on('locationfound', function(e) {
-
     var loc = 
     	{
         type: "Feature",
@@ -32,7 +28,6 @@ map.on('locationfound', function(e) {
             'marker-symbol': 'heart'
         }
     };
-
     geoJson["locations"] = geoJson.push(loc);
     map.featureLayer.setGeoJSON(geoJson);
 
