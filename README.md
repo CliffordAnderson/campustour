@@ -1,7 +1,7 @@
 Campus Tour
-==========
+===========
 
-The goal of this project is to create a light-weight, mobile ready map of campus points-of-interesting using open source technologies. 
+The goal of this project is to create a light-weight, mobile ready map of campus points-of-interest using open source technologies. 
 
 ###Technologies
 
