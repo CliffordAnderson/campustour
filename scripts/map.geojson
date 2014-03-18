@@ -6,7 +6,7 @@ var geoJson = [{
       "properties": {
         "title": "Kirkland Hall",
         "marker-symbol": "star-stroked",
-        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Vandy-kirkland.jpg/208px-Vandy-kirkland.jpg", "Kirkland Hall is home to Vanderbilt Administration"],["images/Vandy_Old_Main.jpg", "Old Main"]]
+        "images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Vandy-kirkland.jpg/208px-Vandy-kirkland.jpg", "The founding of Vanderbilt University had as much to do with determination as it did with providence.  The singular determination of Bishop Holland McTyeire is evident when you consider that the cornerstone for Old Main, now Kirkland Hall, was laid on April 28, 1874 and classes began in that building in little over a year the following fall with a little over 200 students."],["images/Vandy_Old_Main.jpg", "Old Main"]]
       },
       "geometry": {
         "type": "Point",
