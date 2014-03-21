@@ -2,8 +2,8 @@
 
 var map = L.mapbox.map('map', 'vulibrarygis.hj4f8a4e', {
             minZoom: 15,
-            maxZoom: 17,
-            maxBounds: [[36.14000,-86.79271], [36.15043,-86.82515]]});
+            maxZoom: 19,
+            maxBounds: [[36.14000,-86.69271], [36.15043,-86.82515]]});
 
 // Add custom popup html to each marker
 map.markerLayer.on('layeradd', function(e) {
