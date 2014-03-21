@@ -1,6 +1,9 @@
 // code adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/markers-with-image-slideshow/
 
-var map = L.mapbox.map('map', 'examples.map-9ijuk24y');
+var map = L.mapbox.map('map', 'examples.map-9ijuk24y', {
+            minZoom: 15,
+            maxZoom: 17,
+            maxBounds: [[36.14000,-86.79271], [36.15043,-86.82515]]});
 
 // Add custom popup html to each marker
 map.markerLayer.on('layeradd', function(e) {
