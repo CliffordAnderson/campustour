@@ -32,7 +32,7 @@
 
 /* Map Div */
 
-#map { position:absolute; height:79%; width:100%;}
+#map { position:absolute; height:100%; width:100%; margin-top: 50px;}
 
 /* MapBox Popup Marker Styling */
 /* Adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/markers-with-image-slideshow/ */
