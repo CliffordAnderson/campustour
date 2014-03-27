@@ -1,9 +1,9 @@
 // code adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/markers-with-image-slideshow/
 
 var map = L.mapbox.map('map', 'vulibrarygis.hj4f8a4e', {
-            minZoom: 15,
+            minZoom: 12,
             maxZoom: 19,
-            maxBounds: [[36.14000,-86.69271], [36.15043,-86.82515]]});
+            maxBounds: [[36.12,-86.75], [36.17,-86.85]]});
 
 // Add custom popup html to each marker
 map.markerLayer.on('layeradd', function(e) {
