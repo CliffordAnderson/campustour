@@ -1,11 +1,11 @@
-var geoJson = [{
+﻿var geoJson = [{
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
         "title": "Kirkland Hall",
-		"marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[[ "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Vandy-kirkland.jpg/208px-Vandy-kirkland.jpg", "The cornerstone for Old Main, now Kirkland Hall, was laid on April 28, 1874 and classes began in that building in little over a year the following fall with a little over 200 students."],["images/Vandy_Old_Main.jpg", "Old Main was the primary hub of the university in the early years and has been known as Main Building, University Hall, College Hall, and, finally, Kirkland Hall."],["images/Vandy_Old_Main.jpg", "Old Main"],["images/Vandy_Old_Main.jpg", " On April 20, 1905 disaster would strike the University as a fire would destroy much of the building even consuming all but 4,000 volumes of the nearly 40,000 volumes in the library."],["images/Vandy_Old_Main.jpg", "The building was remade in the image of the town hall of Siena, with the addition of the battlements on the roof and the singular bell tower that has become the architectural symbol of the University."],["images/Vandy_Old_Main.jpg", "Kirkland Hall was designed by a local Nashville architect, William C. Smith. The iconic building now serves as the administrative building."]]
+		"marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[[ "images/pa.bld.comp.1h.jpg", "The cornerstone for Old Main, now Kirkland Hall, was laid on April 28, 1874 and classes began in that building in little over a year the following fall with a little over 200 students."],["images/pa.bld.kirh.028.jpg", "Old Main was the primary hub of the university in the early years and has been known as Main Building, University Hall, College Hall, and, finally, Kirkland Hall."],["images/pa.bld.kirh.002.jpg", "Old Main"],["images/pa.bld.kirh.049.jpg", " On April 20, 1905 disaster would strike the University as a fire would destroy much of the building even consuming all but 4,000 volumes of the nearly 40,000 volumes in the library."],["images/pa.bld.kirh.092.jpg", "The building was remade in the image of the town hall of Siena, with the addition of the battlements on the roof and the singular bell tower that has become the architectural symbol of the University."],["images/pa.bld.kirh.100.jpg", "Kirkland Hall was designed by a local Nashville architect, William C. Smith. The iconic building now serves as the administrative building."]]
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +19,7 @@ var geoJson = [{
       "type": "Feature",
       "properties": {
         "title": "Colleges at Kissam",
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Originally the site of Kissam Hall (1901 � 1958) a men�s dormitory.  Outdated and in need of renovation, the building was razed in 1958 to make way for Kissam Quadrangle. "],["images/Vandy_Old_Main.jpg", "Kissam Quadrangle consisted of six dorms that housed 100 men each.  Kissam Quadrangle found a similar fate to its predecessor when it was razed to make room for the Colleges at Kissam."],["images/Vandy_Old_Main.jpg", "The site is currently composed of Warren and Moore Colleges which are part of Residence Education�s college hall system. "]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.kisq.007.jpg", "Originally the site of Kissam Hall (1901 � 1958) a men�s dormitory.  Outdated and in need of renovation, the building was razed in 1958 to make way for Kissam Quadrangle. "],["images/pa.bld.kish.019.jpg", "Kissam Quadrangle consisted of six dorms that housed 100 men each.  Kissam Quadrangle found a similar fate to its predecessor when it was razed to make room for the Colleges at Kissam."],["images/pa.bld.kish.031.jpg", "The site is currently composed of Warren and Moore Colleges which are part of Residence Education�s college hall system. "]]
       },
       "geometry": {
         "type": "Point",
@@ -49,7 +49,7 @@ var geoJson = [{
       "properties": {
         "title": "Barnard Hall & Vanderbilt Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "These twin dormitories were completed in 1957 and were the last of the Collegiate Gothic style to be added to campus. Vanderbilt/Barnard Halls still serve as an upperclassmen dormitory."],["images/Vandy_Old_Main.jpg", "Barnard Hall is named for Edward E. Barnard, a 19th century  astronomer, known as a ranking authority on the Milky Way."],["images/Vandy_Old_Main.jpg", "Vanderbilt Hall is named for Frederick Vanderbilt, the Commodore�s grandson, who left a large portion of his estate to the University."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.barh.2.jpg", "These twin dormitories were completed in 1957 and were the last of the Collegiate Gothic style to be added to campus. Vanderbilt/Barnard Halls still serve as an upperclassmen dormitory."],["images/pa.bld.barh.2.jpg", "Barnard Hall is named for Edward E. Barnard, a 19th century  astronomer, known as a ranking authority on the Milky Way."],["images/pa.bld.barh.2.jpg", "Vanderbilt Hall is named for Frederick Vanderbilt, the Commodore�s grandson, who left a large portion of his estate to the University."]]
       },
       "geometry": {
         "type": "Point",
@@ -64,7 +64,7 @@ var geoJson = [{
       "properties": {
         "title": "Old Gym",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "The Old Gym was designed by Peter J. Williamson in 1880 and built in the Victorian Gothic style. It is now listed on the National Register of Historic Places."],["images/Vandy_Old_Main.jpg", "It served as the social and recreational hub of the University and sporting events such as baseball games were held just outside and dances were held on the main floor."],["images/Vandy_Old_Main.jpg", "The building would see the addition of basketball gymnasium in 1920 only later to be removed in 1964. The building was built with funds provided by William Henry Vanderbilt, the son of Commodore Vanderbilt. "]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.com.1948.25.jpg", "The Old Gym was designed by Peter J. Williamson in 1880 and built in the Victorian Gothic style. It is now listed on the National Register of Historic Places."],["images/pa.com.1948.24.jpg", "It served as the social and recreational hub of the University and sporting events such as baseball games were held just outside and dances were held on the main floor."],["images/pa.alu.reun.253.jpg", "The building would see the addition of basketball gymnasium in 1920 only later to be removed in 1964. The building was built with funds provided by William Henry Vanderbilt, the son of Commodore Vanderbilt. "]]
       },
       "geometry": {
         "type": "Point",
@@ -79,13 +79,13 @@ var geoJson = [{
       "properties": {
         "title": "Furman Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Furman Hall was erected in 1907 in the style of a stone castle it even features battlements which complement those that were added to Kirkland Hall after the 1905 fire."],["images/Vandy_Old_Main.jpg", "The building was built with funds bequeathed to the University by Mrs. Francis Furman who dedicated it to the memory of her beloved husband that had been a prominent Nashville merchant. "],["images/Vandy_Old_Main.jpg", "Furman currently houses the Humanities departments including Foreign Languages, Classical Studies, and Philosophy."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.furm.13.jpg", "Furman Hall was erected in 1907 in the style of a stone castle it even features battlements which complement those that were added to Kirkland Hall after the 1905 fire."],["images/pa.bld.furm.23.jpg", "The building was built with funds bequeathed to the University by Mrs. Francis Furman who dedicated it to the memory of her beloved husband that had been a prominent Nashville merchant. "],["images/pa.bld.furm.28.jpg", "Furman currently houses the Humanities departments including Foreign Languages, Classical Studies, and Philosophy."],["images/pa.bld.furm.33.jpg", "Furman Hall"],["images/pa.com.1950.55.jpg", "Furman Hall"],["images/pa.ath.foot.011.jpg", "Furman Hall"]]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "-86.80195",
-          "36.149128"
+          "-86.801225",
+          "36.147806"
         ]
       }
     },
@@ -94,7 +94,7 @@ var geoJson = [{
       "properties": {
         "title": "Buttrick Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Buttrick Hall was in 1928 to house the biology department.  The construction was accompanied by that of Garland and Calhoun Halls as an effort to bolster the liberal arts at the University."],["images/Vandy_Old_Main.jpg", "Buttrick Hall is currently the home to state of the art classroom space, faculty and administrative offices, Vanderbilt�s Study Abroad Program, the Learning Resource Center, and the Center for teaching."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.buth.8.jpg", "Buttrick Hall was in 1928 to house the biology department.  The construction was accompanied by that of Garland and Calhoun Halls as an effort to bolster the liberal arts at the University."],["images/pa.bld.buth.10.jpg", "Buttrick Hall is currently the home to state of the art classroom space, faculty and administrative offices, Vanderbilt�s Study Abroad Program, the Learning Resource Center, and the Center for teaching."],["images/pa.bld.buth.24.jpg", "Buttrick Hall"]]
       },
       "geometry": {
         "type": "Point",
@@ -124,7 +124,7 @@ var geoJson = [{
       "properties": {
         "title": "Calhoun Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/SC.MSS.0558.38.jpg", "Calhoun Hall was built in 1928 to house the departments of social sciences and humanities and currently houses Economics, Communications, and Political Science."],["images/Vandy_Old_Main.jpg", "The construction of Calhoun Hall was accompanied by that of Garland and Buttirck Halls as an effort to bolster the liberal arts at the University."],["images/PA.BLD.CALH.2.jpg", "The campus bookstore was housed in Calhoun Hall from 1928 to 1948."],["images/PA.BLD.CALH.13.jpg", "It also housed the Divinity Library after Old Wesley Hall burned down."],["images/PA.BLD.CALH.28"]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/SC.MSS.0558.38.jpg", "Calhoun Hall was built in 1928 to house the departments of social sciences and humanities and currently houses Economics, Communications, and Political Science."],["images/pa.bld.calh.2.jpg", "The construction of Calhoun Hall was accompanied by that of Garland and Buttirck Halls as an effort to bolster the liberal arts at the University."],["images/PA.BLD.CALH.13.jpg", "The campus bookstore was housed in Calhoun Hall from 1928 to 1948."],["images/PA.BLD.CALH.28.jpg", "It also housed the Divinity Library after Old Wesley Hall burned down."]]
       },
       "geometry": {
         "type": "Point",
@@ -169,7 +169,7 @@ var geoJson = [{
       "properties": {
         "title": "Vaughn Home",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "The Vaughn Home was one of the seven original faculty houses built on campus. It was originally known as Residence Five. "],["images/Vandy_Old_Main.jpg", "The building has served as a residence for married faculty, a dormitory for men and for women, and offices for the departments of romance languages and teaching assistants in western civilization. "],["images/Vandy_Old_Main.jpg", "It presently houses the Robert Penn Warren Center for the Humanities. The Vaughn Home is named after William J Vaughn, a mathematics professor that lived here in the early years of the University."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.fach.15.jpg", "The Vaughn Home was one of the seven original faculty houses built on campus. It was originally known as Residence Five. "],["images/pa.bld.fach.15.jpg", "The building has served as a residence for married faculty, a dormitory for men and for women, and offices for the departments of romance languages and teaching assistants in western civilization. "],["images/pa.bld.fach.15.jpg", "It presently houses the Robert Penn Warren Center for the Humanities. The Vaughn Home is named after William J Vaughn, a mathematics professor that lived here in the early years of the University."]]
       },
       "geometry": {
         "type": "Point",
@@ -184,7 +184,7 @@ var geoJson = [{
       "properties": {
         "title": "Alumni Memorial Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Alumni Memorial Hall was built in the Collegiate Gothic style to mirror the Medical School and Neely Auditorium.  The building served as the student center before the completion of Sarratt and Rand."],["images/Vandy_Old_Main.jpg", "In the Memorial Room the names of the forty-four Vanderbilt students that lost their lives during World War I are carved into the mantels surrounding the room. "],["images/Vandy_Old_Main.jpg", "The building recently underwent significant renovations and currently houses the Writing Studio and the Learning Center."],["images/Vandy_Old_Main.jpg", "Old Main"]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.aluh.26.jpg", "Alumni Memorial Hall was built in the Collegiate Gothic style to mirror the Medical School and Neely Auditorium.  The building served as the student center before the completion of Sarratt and Rand."],["images/pa.bld.aluh.9.jpg", "In the Memorial Room the names of the forty-four Vanderbilt students that lost their lives during World War I are carved into the mantels surrounding the room. "],["images/pa.fas.staf.004.jpg", "The building recently underwent significant renovations and currently houses the Writing Studio and the Learning Center."]]
       },
       "geometry": {
         "type": "Point",
@@ -214,7 +214,7 @@ var geoJson = [{
       "properties": {
         "title": "Neely Auditorium",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Neely Auditorium was built in 1925 as a campus chapel and central meeting hall.  The building had 1,100 pews that could accommodate every undergraduate as well as their professors."],["images/Vandy_Old_Main.jpg", "Vanderbilt would use the auditorium for graduation exercises from 1925 to 1948."],["images/Vandy_Old_Main.jpg", "It is currently home to the Theatre department and the department�s student production organization. You can view one of the original pews in Neely's lobby."],["images/Vandy_Old_Main.jpg", "Old Main"]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.com.1973.463.jpg", "Neely Auditorium was built in 1925 as a campus chapel and central meeting hall.  The building had 1,100 pews that could accommodate every undergraduate as well as their professors."],["images/pa.caf.plaq.012.jpg", "Vanderbilt would use the auditorium for graduation exercises from 1925 to 1948."],["images/sc.mss.0558.46.jpg", "It is currently home to the Theatre department and the department�s student production organization. You can view one of the original pews in Neely's lobby."]]
       },
       "geometry": {
         "type": "Point",
@@ -304,7 +304,7 @@ var geoJson = [{
       "properties": {
         "title": "Old Central",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Old Central is the oldest building on the Vanderbilt Campus. The building was home to Mr. and Mrs. Henry Foote. "],["images/Vandy_Old_Main.jpg", "Henry Foote had formerly been the Governor of Mississippi prior to relocating to Nashville."],["images/Vandy_Old_Main.jpg", "The building was actually occupied by Union forces as the Union encampment and battle lines actually traversed the land that would eventually be part of campus."],["images/Vandy_Old_Main.jpg", "Old Central currently houses the English Department and the Graduate Program in Economic Development."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.com.1975.211.jpg", "Old Central is the oldest building on the Vanderbilt Campus. The building was home to Mr. and Mrs. Henry Foote. "],["images/pa.com.1975.211.jpg", "Henry Foote had formerly been the Governor of Mississippi prior to relocating to Nashville."],["images/pa.com.1975.211.jpg", "The building was actually occupied by Union forces as the Union encampment and battle lines actually traversed the land that would eventually be part of campus."],["images/pa.com.1975.211.jpg", "Old Central currently houses the English Department and the Graduate Program in Economic Development."]]
       },
       "geometry": {
         "type": "Point",
@@ -319,7 +319,7 @@ var geoJson = [{
       "properties": {
         "title": "Three Bishops & Garland",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Bishop Holland McTyeire is buried here underneath the Magnolias that he planted early on in his time at Vanderbilt.  In 1876 McTyeire oversaw the reburial of William McKendree and Joshua Soule reburied at this location."],["images/Vandy_Old_Main.jpg", "McKendree was the first American-born Methodist bishop and had been a soldier with Washington at Yorktown when Cornwallis surrendered. "],["images/Vandy_Old_Main.jpg", "Soule was the descendant of Mayflower pilgrims and was influential in the formation of the Methodist Episcopal Church, South."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.caf.grav.002.jpg", "Bishop Holland McTyeire is buried here underneath the Magnolias that he planted early on in his time at Vanderbilt.  In 1876 McTyeire oversaw the reburial of William McKendree and Joshua Soule reburied at this location."],["images/Vandy_Old_Main.jpg", "McKendree was the first American-born Methodist bishop and had been a soldier with Washington at Yorktown when Cornwallis surrendered. "],["images/Vandy_Old_Main.jpg", "Soule was the descendant of Mayflower pilgrims and was influential in the formation of the Methodist Episcopal Church, South."]]
       },
       "geometry": {
         "type": "Point",
@@ -334,7 +334,7 @@ var geoJson = [{
       "properties": {
         "title": "Old Mechanical",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "The Mechanical Engineering Hall was the first facility built specifically for engineering education in the State of Tennessee."],["images/Vandy_Old_Main.jpg", "Funds donated by Cornelius II, the grandson of Commodore Vanderbilt, were used for the original construction."],["images/Vandy_Old_Main.jpg", "The building was incorporated into the construction of the primary building for the Owen Graduate School of Management."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.comp.1g.jpg", "The Mechanical Engineering Hall was the first facility built specifically for engineering education in the State of Tennessee."],["images/pa.bld.comp.1g.jpg", "Funds donated by Cornelius II, the grandson of Commodore Vanderbilt, were used for the original construction."],["images/pa.bld.comp.1g.jpg", "The building was incorporated into the construction of the primary building for the Owen Graduate School of Management."]]
       },
       "geometry": {
         "type": "Point",
@@ -349,7 +349,7 @@ var geoJson = [{
       "properties": {
         "title": "Wyatt Center",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "The Faye & Joe Wyatt Center for Education, originally called the Social-Religious Building, was built in 1915."],["images/Vandy_Old_Main.jpg", "The building has undergone extensive renovations with major additions of office and community space to the rear. "],["images/Vandy_Old_Main.jpg", "Wyatt Center serves as a main academic building for Peabody College. The building boasts a large rotunda that is used for social events and lectures."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pc.bld.srbi.026.jpg", "The Faye & Joe Wyatt Center for Education, originally called the Social-Religious Building, was built in 1915."],["images/pc.bld.srbc.005.jpg", "The building has undergone extensive renovations with major additions of office and community space to the rear. "],["images/pc.bld.srbe.102.jpg", "Wyatt Center serves as a main academic building for Peabody College. The building boasts a large rotunda that is used for social events and lectures."]]
       },
       "geometry": {
         "type": "Point",
@@ -379,7 +379,7 @@ var geoJson = [{
       "properties": {
         "title": "Peabody Library",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Peabody Library was built in 1919  in the Classical Revival style as evidenced by the pedimented portico, entablatures, and balustraded roof. "],["images/Vandy_Old_Main.jpg", "The Peabody Library building was built with a gift from the Carnegie Corporation. The building was constructed from 1917-19 and opened its doors May 30, 1919."],["images/Vandy_Old_Main.jpg", "Peabody's library became the Education Library in 1974. The library�s focus is on developing the collection in the areas of education, special education, psychology, human development, and library and information science. "],["images/Vandy_Old_Main.jpg", "When Peabody College merged with Vanderbilt University in 1979, the Education Library became part of the University library system. In 2002, the Education Library was renamed Peabody Library."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pc.bld.plie.001.jpg", "Peabody Library was built in 1919  in the Classical Revival style as evidenced by the pedimented portico, entablatures, and balustraded roof. "],["images/pc.bld.plii.010.jpg", "The Peabody Library building was built with a gift from the Carnegie Corporation. The building was constructed from 1917-19 and opened its doors May 30, 1919."],["images/pc.bld.plii.010.jpg", "Peabody's library became the Education Library in 1974. The library�s focus is on developing the collection in the areas of education, special education, psychology, human development, and library and information science. "],["images/pc.bld.plii.010.jpg", "When Peabody College merged with Vanderbilt University in 1979, the Education Library became part of the University library system. In 2002, the Education Library was renamed Peabody Library."]]
       },
       "geometry": {
         "type": "Point",
@@ -394,7 +394,7 @@ var geoJson = [{
       "properties": {
         "title": "East Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "East Hall was built in 1924 as a women�s dormitory and was built in the Classical Revival style as evidenced by the entablatures and balustraded roof. "],["images/Vandy_Old_Main.jpg", "Now known as  East House, it provides accommodations for approximately 100 students. The building was completely renovated from 1987 to 1988."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pc.bld.eahe.014.jpg", "East Hall was built in 1924 as a women�s dormitory and was built in the Classical Revival style as evidenced by the entablatures and balustraded roof. "],["images/pc.bld.eahe.030.jpg", "Now known as  East House, it provides accommodations for approximately 100 students. The building was completely renovated from 1987 to 1988."],["images/pc.bld.eahi.001.jpg", "East Hall"],["images/pc.sta.dleh.055.jpg", "East Hall"]]
       },
       "geometry": {
         "type": "Point",
@@ -409,7 +409,7 @@ var geoJson = [{
       "properties": {
         "title": "North Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "North Hall was built in 1929 as a graduate dormitory and was built in the Classical Revival style as evidenced by the entablatures and balustraded roof. "],["images/Vandy_Old_Main.jpg", "Now known as North House, it houses approximately 176 first-year students. The building underwent an extensive renovation in 1989 and features an atrium on the sixth floor."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pc.bld.grdc.006.jpg", "North Hall was built in 1929 as a graduate dormitory and was built in the Classical Revival style as evidenced by the entablatures and balustraded roof. "],["images/pc.bld.grde.008.jpg", "Now known as North House, it houses approximately 176 first-year students. The building underwent an extensive renovation in 1989 and features an atrium on the sixth floor."],["images/pc.bld.grde.038.jpg", "North Hall"],["images/pc.bld.grdi.002.jpg", "North Hall"]]
       },
       "geometry": {
         "type": "Point",
@@ -424,7 +424,7 @@ var geoJson = [{
       "properties": {
         "title": "Cohen Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Cohen Hall, originally called Cohen Art Building & Museum, was built in 1928.  Cohen Hall is built in the Classical Revival style as evidenced by the entablatures and balustraded roof. "],["images/Vandy_Old_Main.jpg", "Cohen Hall currently serves as the home of the Vanderbilt University Fine Arts Gallery. Admission to the gallery is free and open to the public."],["images/Vandy_Old_Main.jpg", "<a href='http://www.vanderbilt.edu/gallery/visit.html'>Vanderbilt University Fine Arts Gallery</a>"]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pc.bld.fabc.012.jpg", "Cohen Hall, originally called Cohen Art Building & Museum, was built in 1928.  Cohen Hall is built in the Classical Revival style as evidenced by the entablatures and balustraded roof. "],["images/pc.bld.fabc.001.jpg", "Cohen Hall currently serves as the home of the Vanderbilt University Fine Arts Gallery. Admission to the gallery is free and open to the public."],["images/pc.bld.fabi.005.jpg", "<a href='http://www.vanderbilt.edu/gallery/visit.html'>Vanderbilt University Fine Arts Gallery</a>"]]
       },
       "geometry": {
         "type": "Point",
@@ -454,13 +454,13 @@ var geoJson = [{
       "properties": {
         "title": "Vanderbilt Stadium",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Vanderbilt Stadium was built in 1922 as the first purpose built college football stadium in the South.  It was also the largest in the South, with a seating capacity of over 20,000."],["images/Vandy_Old_Main.jpg", "It was dedicated during the University of Michigan game that required a goal line stand to preserve a 0-0 tie."],["images/Vandy_Old_Main.jpg", "The stadium has undergone numerous renovations and expansions and currently has a seating capacity of 40,550."],["images/Vandy_Old_Main.jpg", "<a href='http://www.vucommodores.com/sports/m-footbl/vand-m-footbl-body.html'>Vanderbilt Football</a>"]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.dudl.9.jpg", "Vanderbilt Stadium was built in 1922 as the first purpose built college football stadium in the South.  It was also the largest in the South, with a seating capacity of over 20,000."],["images/pa.bld.dudl.12.jpg", "It was dedicated during the University of Michigan game that required a goal line stand to preserve a 0-0 tie."],["images/pa.bld.dudl.9.jpg", "The stadium has undergone numerous renovations and expansions and currently has a seating capacity of 40,550."],["images/pa.bld.dudl.12.jpg", "<a href='http://www.vucommodores.com/sports/m-footbl/vand-m-footbl-body.html'>Vanderbilt Football</a>"]]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "-86.801225",
-          "36.147806"
+          "-86.809772",
+          "36.143261"
         ]
       }
     },
@@ -474,25 +474,25 @@ var geoJson = [{
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "-86.801911",
-          "36.147156"
+          "-86.801542",
+          "36.145825"
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Vaughn Home",
+        "title": "Benson Science Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "The Vaughn Home was one of the seven original faculty houses built on campus. It was originally known as Residence Five."],["images/Vandy_Old_Main.jpg", "The building has served as a residence for married faculty, a dormitory for men and for women, and offices for the departments of romance languages and teaching assistants in western civilization. "],["images/Vandy_Old_Main.jpg", "It presently houses the Robert Penn Warren Center for the Humanities. The Vaughn Home is named after William J Vaughn, a mathematics professor that lived here in the early years of the University."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Wesley Hall burned February 19, 1932 on the site that is now Library Lawn.  The timing was unfortunate as the nation was suffering from the height of the Great Depression. "],["images/Vandy_Old_Main.jpg", "Wesley Hall was the home of the Biblical School and was a dormitory that even featured a cafeteria. "],["images/Vandy_Old_Main.jpg", "Vanderbilt�s finances were such that the charred ruins could not be removed for over a decade.  In 1940, bricks from the ruins were used to build the first non-nursing women�s dorm on campus, McTyeire Hall."]]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "-86.80196",
-          "36.14918"
+          "-86.801911",
+          "36.147156"
         ]
       }
-    }
+    },
   ]
 }];
