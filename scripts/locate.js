@@ -10,7 +10,7 @@ if (!navigator.geolocation) {
     geolocate.onclick = function (e) {
         e.preventDefault();
         e.stopPropagation();
-        map.locate({setView: true, maxZoom: 16});
+        map.locate({setView: true, maxZoom: 19});
     };
 }
 
