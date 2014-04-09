@@ -19,7 +19,7 @@
       "type": "Feature",
       "properties": {
         "title": "Colleges at Kissam",
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.kisq.007.jpg", "Originally the site of Kissam Hall (1901 � 1958) a men�s dormitory.  Outdated and in need of renovation, the building was razed in 1958 to make way for Kissam Quadrangle. "],["images/pa.bld.kish.019.jpg", "Kissam Quadrangle consisted of six dorms that housed 100 men each.  Kissam Quadrangle found a similar fate to its predecessor when it was razed to make room for the Colleges at Kissam."],["images/pa.bld.kish.031.jpg", "The site is currently composed of Warren and Moore Colleges which are part of Residence Education�s college hall system. "]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.kish.019.jpg", "Originally the site of Kissam Hall (1901 � 1958) a men�s dormitory.  Outdated and in need of renovation, the building was razed in 1958 to make way for Kissam Quadrangle. "],["images/pa.bld.kisq.007.jpg", "Kissam Quadrangle consisted of six dorms that housed 100 men each.  Kissam Quadrangle found a similar fate to its predecessor when it was razed to make room for the Colleges at Kissam."],["images/pa.bld.kish.031.jpg", "The site is currently composed of Warren and Moore Colleges which are part of Residence Education�s college hall system. "]]
       },
       "geometry": {
         "type": "Point",
@@ -34,7 +34,7 @@
       "properties": {
         "title": "Commodore's Statue",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "The Commodore�s Statue was created by the Italian-born sculptor Giuseppe Moretti in his New York studio.  The sculpture was commissioned by private Nashville citizens as well as officers of the Tennessee Centennial Exposition. "],["images/Vandy_Old_Main.jpg", "The statue was originally placed at the western end of the Parthenon during the 1887 Tennessee Centennial Exposition.  Upon the closing of the exposition the statue was moved across the street to Vanderbilt�s campus."],["images/Vandy_Old_Main.jpg", "The statue was initially positioned in front of the Kirkland Hall Tower, but it was eventually moved to its current location in 1949 near the campus entrance on West End Avenue."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.caf.stac.027", "The Commodore�s Statue was created by the Italian-born sculptor Giuseppe Moretti in his New York studio.  The sculpture was commissioned by private Nashville citizens as well as officers of the Tennessee Centennial Exposition. "],["images/pa.caf.stac.017.jpg", "The statue was originally placed at the western end of the Parthenon during the 1887 Tennessee Centennial Exposition.  Upon the closing of the exposition the statue was moved across the street to Vanderbilt�s campus."],["images/pa.caf.stac.027.jpg", "The statue was initially positioned in front of the Kirkland Hall Tower, but it was eventually moved to its current location in 1949 near the campus entrance on West End Avenue."]]
       },
       "geometry": {
         "type": "Point",
@@ -109,7 +109,7 @@
       "properties": {
         "title": "Garland Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Garland Hall was built in 1928 along with Buttrick and Calhoun Halls to bolster liberal arts at the University."],["images/Vandy_Old_Main.jpg", "Garland Hall was built in 1928 along with Buttrick and Calhoun Halls to bolster liberal arts at the University."],["images/Vandy_Old_Main.jpg", "Old Main"]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.garh.1.jpg", "Garland Hall was built in 1928 along with Buttrick and Calhoun Halls to bolster liberal arts at the University."],["images/pa.bld.garh.3.jpg", "Garland Hall was built in 1928 along with Buttrick and Calhoun Halls to bolster liberal arts at the University."],["images/sc.mss.0332.148.jpg", "Bust of "]]
       },
       "geometry": {
         "type": "Point",
@@ -139,28 +139,13 @@
       "properties": {
         "title": "Student Cottages on West Side Row",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "These buildings were the earliest student housing building on campus.  There were initially six identical cottages constructed in 1886 and 1887. "],["images/Vandy_Old_Main.jpg", "Students named the cottages Alpha, Belleview, Cumberland, Delphi, Euclid, and Franklin in that order starting at West End. "],["images/Vandy_Old_Main.jpg", "Old Main"]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/sc.mss.0332.101n.jpg", "These buildings were the earliest student housing building on campus.  There were initially six identical cottages constructed in 1886 and 1887. "],["images/pa.fas.staf.012.jpg", "Students named the cottages Alpha, Belleview, Cumberland, Delphi, Euclid, and Franklin in that order starting at West End. "]]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           "-86.804897",
           "36.147444"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Bishop Johnson Center",
-
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Old Main"],["images/Vandy_Old_Main.jpg", "Old Main"],["images/Vandy_Old_Main.jpg", "Old Main"],["images/Vandy_Old_Main.jpg", "Old Main"]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-86.803089",
-          "36.145708"
         ]
       }
     },
@@ -199,7 +184,7 @@
       "properties": {
         "title": "Benton Chapel",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Benton Chapel was completed as part of the Divinity School Quadrangle in 1959."],["images/Vandy_Old_Main.jpg", "The building has several notable symbolic features.  The bronze door handles on the front of the chapel are of the Archangels, Michael and Gabriel, complete with their respective horn and sword."],["images/Vandy_Old_Main.jpg", "The rear exterior wall features three crosses formed by bricks extending from the wall."],["images/Vandy_Old_Main.jpg", "The interior features several stained glass windows, with most notably, the �Word of God� window that features the the name of God written in Greek."],["images/Vandy_Old_Main.jpg", "Services are still head every week at Benton Chapel and the space serves as a hub of campus religious life."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.bent.5.jpg", "Benton Chapel was completed as part of the Divinity School Quadrangle in 1959."],["images/pa.bld.bent.35.jpg", "The building has several notable symbolic features.  The bronze door handles on the front of the chapel are of the Archangels, Michael and Gabriel, complete with their respective horn and sword."],["images/pa.por.tolm.001.21.jpg", "The rear exterior wall features three crosses formed by bricks extending from the wall."],["images/pa.bld.bent.35", "The interior features several stained glass windows, with most notably, the �Word of God� window that features the the name of God written in Greek."],["images/pa.bld.bent.35.jpg", "Services are still head every week at Benton Chapel and the space serves as a hub of campus religious life."]]
       },
       "geometry": {
         "type": "Point",
@@ -244,7 +229,7 @@
       "properties": {
         "title": "Statue of Harold Stirling Vanderbilt",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Harold Stirling Vanderbilt served as the President of the Board of Trustees during a period of unprecedented growth (1955-1968)."],["images/Vandy_Old_Main.jpg", "This statue was placed on the ledge of library lawn to commemorate his service and contribution to the university.  "]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.por.vanh.017.jpg", "Harold Stirling Vanderbilt served as the President of the Board of Trustees during a period of unprecedented growth (1955-1968)."],["images/pa.caf.stah.004.jpg", "This statue was placed on the ledge of library lawn to commemorate his service and contribution to the university.  "]]
       },
       "geometry": {
         "type": "Point",
@@ -259,7 +244,7 @@
       "properties": {
         "title": "Tolman Hall & Old Kissam Cornerstone",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Tolman Hall was constructed in 1947 following World War II to accommodate all of the returning soldiers that were enrolling in college in very large numbers."],["images/Vandy_Old_Main.jpg", " In the immediate years after World War II veterans would comprise over half of all students enrolled at Vanderbilt. "],["images/Vandy_Old_Main.jpg", "The inscribed cornerstone from Old Kissam Hall is embedded as a plaque into the front left fa�ade of Tolman Hall. Tolman Hall still serves as an upperclassmen dormitory."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.com.1973.466.jpg", "Tolman Hall was constructed in 1947 following World War II to accommodate all of the returning soldiers that were enrolling in college in very large numbers."],["images/pa.com.1973.466.jpg", " In the immediate years after World War II veterans would comprise over half of all students enrolled at Vanderbilt. "],["images/pa.com.1973.466.jpg", "The inscribed cornerstone from Old Kissam Hall is embedded as a plaque into the front left fa�ade of Tolman Hall. Tolman Hall still serves as an upperclassmen dormitory."]]
       },
       "geometry": {
         "type": "Point",
@@ -319,7 +304,7 @@
       "properties": {
         "title": "Three Bishops & Garland",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.caf.grav.002.jpg", "Bishop Holland McTyeire is buried here underneath the Magnolias that he planted early on in his time at Vanderbilt.  In 1876 McTyeire oversaw the reburial of William McKendree and Joshua Soule reburied at this location."],["images/Vandy_Old_Main.jpg", "McKendree was the first American-born Methodist bishop and had been a soldier with Washington at Yorktown when Cornwallis surrendered. "],["images/Vandy_Old_Main.jpg", "Soule was the descendant of Mayflower pilgrims and was influential in the formation of the Methodist Episcopal Church, South."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.caf.grav.002.jpg", "Bishop Holland McTyeire is buried here underneath the Magnolias that he planted early on in his time at Vanderbilt.  In 1876 McTyeire oversaw the reburial of William McKendree and Joshua Soule reburied at this location."],["images/pa.caf.grav.002.jpg", "McKendree was the first American-born Methodist bishop and had been a soldier with Washington at Yorktown when Cornwallis surrendered. "],["images/pa.caf.grav.002.jpg", "Soule was the descendant of Mayflower pilgrims and was influential in the formation of the Methodist Episcopal Church, South."]]
       },
       "geometry": {
         "type": "Point",
@@ -334,7 +319,7 @@
       "properties": {
         "title": "Old Mechanical",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.comp.1g.jpg", "The Mechanical Engineering Hall was the first facility built specifically for engineering education in the State of Tennessee."],["images/pa.bld.comp.1g.jpg", "Funds donated by Cornelius II, the grandson of Commodore Vanderbilt, were used for the original construction."],["images/pa.bld.comp.1g.jpg", "The building was incorporated into the construction of the primary building for the Owen Graduate School of Management."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.comp.1g.jpg", "The Mechanical Engineering Hall was the first facility built specifically for engineering education in the State of Tennessee."],["images/pa.com.1951.132.jpg", "Funds donated by Cornelius II, the grandson of Commodore Vanderbilt, were used for the original construction."],["images/PA.CAF.SCEN.003.jpg", "The building was incorporated into the construction of the primary building for the Owen Graduate School of Management."]]
       },
       "geometry": {
         "type": "Point",
@@ -364,7 +349,7 @@
       "properties": {
         "title": "Memorial Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Memorial Hall was built as a women�s dormitory in 1933, in part funds from the United Daughters of the Confederacy.  "],["images/Vandy_Old_Main.jpg", "The building was originally called Confederate Memorial Hall. In 2002, the University decided to rename the building Memorial Hall."],["images/Vandy_Old_Main.jpg", "Memorial Hall is built in the Classical Revival style as evidenced by the pedimented portico, entablatures, and balustraded roof.  It provides housing for approximately 80 first-year students. "],["images/Vandy_Old_Main.jpg", "Memorial House was renovated in 1987 with additional modernization in the summers of 2006 and 2007."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pc.bld.cone.009.jpg", "Memorial Hall was built as a women�s dormitory in 1933, in part funds from the United Daughters of the Confederacy.  "],["images/pc.bld.cone.009.jpg", "The building was originally called Confederate Memorial Hall. In 2002, the University decided to rename the building Memorial Hall."],["images/pc.bld.cone.009.jpg", "Memorial Hall is built in the Classical Revival style as evidenced by the pedimented portico, entablatures, and balustraded roof.  It provides housing for approximately 80 first-year students. "],["images/pc.bld.cone.009.jpg", "Memorial House was renovated in 1987 with additional modernization in the summers of 2006 and 2007."]]
       },
       "geometry": {
         "type": "Point",
@@ -439,7 +424,7 @@
       "properties": {
         "title": "Ginkgo Biloba",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "The Gingko tree is a living fossil.  The tree has no living relatives and can be found in the fossil record as far back as 270 million years ago."],["images/Vandy_Old_Main.jpg", "The tree is native to China and is used in traditional Chinese medicine as a memory and concentration enhancer."],["images/Vandy_Old_Main.jpg", "The tree is deep rooted and resistant to wind and snow damage which enables it to thrive in the variable Nashville weather."],["images/Vandy_Old_Main.jpg", "Ginkgos are dioecious, with separate sexes, some trees being female and others being male."],["images/Vandy_Old_Main.jpg", "The easiest way to tell the difference between the trees is the pungent odor that emanates from the seeds female trees drop during the spring."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "The Gingko tree has no living relatives and can be found in the fossil record as far back as 270 million years ago."],["images/Vandy_Old_Main.jpg", "The tree is native to China and is used in traditional Chinese medicine as a memory and concentration enhancer."],["images/Vandy_Old_Main.jpg", "The tree is deep rooted and resistant to wind and snow damage which enables it to thrive in the variable Nashville weather."],["images/Vandy_Old_Main.jpg", "Ginkgos are dioecious, with separate sexes, some trees being female and others being male."],["images/Vandy_Old_Main.jpg", "The easiest way to tell the difference between the trees is the pungent odor that emanates from the seeds female trees drop during the spring."]]
       },
       "geometry": {
         "type": "Point",
@@ -469,7 +454,7 @@
       "properties": {
         "title": "Wesley Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Wesley Hall burned February 19, 1932 on the site that is now Library Lawn.  The timing was unfortunate as the nation was suffering from the height of the Great Depression. "],["images/Vandy_Old_Main.jpg", "Wesley Hall was the home of the Biblical School and was a dormitory that even featured a cafeteria. "],["images/Vandy_Old_Main.jpg", "Vanderbilt�s finances were such that the charred ruins could not be removed for over a decade.  In 1940, bricks from the ruins were used to build the first non-nursing women�s dorm on campus, McTyeire Hall."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/sc.mss.0159.343.jpg", "Wesley Hall burned February 19, 1932 on the site that is now Library Lawn.  The timing was unfortunate as the nation was suffering from the height of the Great Depression. "],["images/sc.mss.0332.099n.jpg", "Wesley Hall was the home of the Biblical School and was a dormitory that even featured a cafeteria. "],["images/pa.cpn.misc.09.jpg", "Vanderbilt�s finances were such that the charred ruins could not be removed for over a decade.  In 1940, bricks from the ruins were used to build the first non-nursing women�s dorm on campus, McTyeire Hall."]]
       },
       "geometry": {
         "type": "Point",
@@ -484,7 +469,7 @@
       "properties": {
         "title": "Benson Science Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/Vandy_Old_Main.jpg", "Wesley Hall burned February 19, 1932 on the site that is now Library Lawn.  The timing was unfortunate as the nation was suffering from the height of the Great Depression. "],["images/Vandy_Old_Main.jpg", "Wesley Hall was the home of the Biblical School and was a dormitory that even featured a cafeteria. "],["images/Vandy_Old_Main.jpg", "Vanderbilt�s finances were such that the charred ruins could not be removed for over a decade.  In 1940, bricks from the ruins were used to build the first non-nursing women�s dorm on campus, McTyeire Hall."]]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.kirh.117.26.jpg", "Wesley Hall burned February 19, 1932 on the site that is now Library Lawn.  The timing was unfortunate as the nation was suffering from the height of the Great Depression. "],["images/pa.bld.comp.1a", "Wesley Hall was the home of the Biblical School and was a dormitory that even featured a cafeteria. "],["images/pa.bld.comp.1a.jpg", "Vanderbilt�s finances were such that the charred ruins could not be removed for over a decade.  In 1940, bricks from the ruins were used to build the first non-nursing women�s dorm on campus, McTyeire Hall."],["images/pa.caf.snow.027.jpg", "Students Playing in Snow, circa 1917"]
       },
       "geometry": {
         "type": "Point",
