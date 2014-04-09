@@ -469,7 +469,7 @@
       "properties": {
         "title": "Benson Science Hall",
 
-        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.kirh.117.26.jpg", "Wesley Hall burned February 19, 1932 on the site that is now Library Lawn.  The timing was unfortunate as the nation was suffering from the height of the Great Depression. "],["images/pa.bld.comp.1a", "Wesley Hall was the home of the Biblical School and was a dormitory that even featured a cafeteria. "],["images/pa.bld.comp.1a.jpg", "Vanderbilt�s finances were such that the charred ruins could not be removed for over a decade.  In 1940, bricks from the ruins were used to build the first non-nursing women�s dorm on campus, McTyeire Hall."],["images/pa.caf.snow.027.jpg", "Students Playing in Snow, circa 1917"]
+        "marker-size": "medium",	"marker-color": "#e5c278",	"marker-symbol": "star-stroked",	"images":[["images/pa.bld.kirh.117.26.jpg", "Wesley Hall burned February 19, 1932 on the site that is now Library Lawn.  The timing was unfortunate as the nation was suffering from the height of the Great Depression. "],["images/pa.bld.comp.1a", "Wesley Hall was the home of the Biblical School and was a dormitory that even featured a cafeteria. "],["images/pa.bld.comp.1a.jpg", "Vanderbilt�s finances were such that the charred ruins could not be removed for over a decade.  In 1940, bricks from the ruins were used to build the first non-nursing women�s dorm on campus, McTyeire Hall."],["images/pa.caf.snow.027.jpg", "Students Playing in Snow, circa 1917"]]
       },
       "geometry": {
         "type": "Point",
