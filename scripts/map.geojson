@@ -115,7 +115,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.buth.8.jpg", "Buttrick Hall was in 1928 to house the biology department."],["images/pa.bld.buth.10.jpg", "The construction was accompanied by that of Garland and Calhoun Halls as an effort to bolster the liberal arts at the University."],["images/pa.bld.buth.24.jpg", "Buttrick Hall is currently the home to state of the art classroom space, faculty and administrative offices"]]
+	"images":[["images/pa.bld.buth.8.jpg", "Buttrick Hall was in 1928 to house the biology department and had a greenhouse attached to it."],["images/pa.bld.buth.10.jpg", "The construction was accompanied by that of Garland and Calhoun Halls as an effort to bolster the liberal arts at the University."],["images/pa.bld.buth.24.jpg", "Buttrick Hall is currently the home to state of the art classroom space, faculty and administrative offices"]]
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +133,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.garh.1.jpg", "Garland Hall was built in 1928 along with Buttrick and Calhoun Halls to bolster liberal arts at the University."],["images/pa.bld.garh.3.jpg", "Garland Hall was built in 1928 along with Buttrick and Calhoun Halls to bolster liberal arts at the University."],["images/sc.mss.0332.148.jpg", "Bust of Landon Cabell Garland, First Vanderbilt Chancellor 1875 - 1893"]]
+	"images":[["images/pa.bld.garh.1.jpg", "Garland Hall was built in 1928 along with Buttrick and Calhoun Halls to bolster liberal arts at the University."],["images/pa.bld.garh.3.jpg", "Garland Hall is currently home to Anthropology, Sociology and Religious Studies Departments."],["images/sc.mss.0332.148.jpg", "Bust of Landon Cabell Garland, First Vanderbilt Chancellor 1875 - 1893"]]
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +295,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/tolman.jpg", "Tolman Hall was constructed in 1947 following World War II to accommodate all of the returning soldiers that were enrolling in college in very large numbers."],["images/tolman.jpg", " In the immediate years after World War II veterans would comprise over half of all students enrolled at Vanderbilt. "],["images/pa.com.1973.466.jpg", "The inscribed cornerstone from Old Kissam Hall is embedded as a plaque into the front left fa'ade of Tolman Hall. Tolman Hall still serves as an upperclassmen dormitory."]]
+	"images":[["images/tolman.jpg", "Tolman Hall was constructed in 1947 following World War II to accommodate all of the returning soldiers that were enrolling in college in very large numbers."],["images/tolman.jpg", " In the immediate years after World War II veterans would comprise over half of all students enrolled at Vanderbilt. "],["images/pa.com.1973.466.jpg", "The inscribed cornerstone from Old Kissam Hall is embedded as a plaque into the front left façade of Tolman Hall. Tolman Hall still serves as an upperclassmen dormitory."]]
       },
       "geometry": {
         "type": "Point",
@@ -367,7 +367,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.caf.grav.002.jpg", "Bishop Holland McTyeire is buried here underneath the Magnolias that he planted early on in his time at Vanderbilt."],["images/pa.caf.grav.007.jpg", " In 1876 McTyeire oversaw the reburial of William McKendree and Joshua Soule reburied at this location."],["images/BishopM.jpg", "McKendree was the first American-born Methodist bishop and had been a soldier with Washington at Yorktown when Cornwallis surrendered. "],["images/bishopwife.jpg", "Soule was the descendant of Mayflower pilgrims and was influential in the formation of the Methodist Episcopal Church, South."],["images/garland grave.jpg", "When Chancellor Garland died in 1895 his body was entombed here as well."]]
+	"images":[["images/pa.caf.grav.002.jpg", "Bishop Holland McTyeire is buried here underneath the Magnolias while President of Vanderbilt."],["images/pa.caf.grav.007.jpg", " In 1876 McTyeire oversaw the reburial of Bishops William McKendree and Joshua Soule reburied at this location."],["images/BishopM.jpg", "McKendree was the first American-born Methodist bishop and had been a soldier with Washington at Yorktown when Cornwallis surrendered. "],["images/bishopwife.jpg", "Soule was the descendant of Mayflower pilgrims and was influential in the formation of the Methodist Episcopal Church, South."],["images/garland grave.jpg", "When Chancellor Garland died in 1895 his body was entombed here as well."]]
       },
       "geometry": {
         "type": "Point",
@@ -385,7 +385,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.comp.1g.jpg", "The Mechanical Engineering Hall was the first facility built specifically for engineering education in the State of Tennessee."],["images/pa.com.1951.132.jpg", "Funds donated by Cornelius II, the grandson of Commodore Vanderbilt, were used for the original construction."],["images/PA.CAF.SCEN.003.jpg", "The building was incorporated into the construction of the primary building for the Owen Graduate School of Management."]]
+	"images":[["images/pa.bld.comp.1g.jpg", "The Mechanical Engineering Hall was the first facility built specifically for engineering education in the State of Tennessee."],["images/pa.com.1951.132.jpg", "Funds donated by Cornelius II, the grandson of Commodore Vanderbilt, were used for the original construction."],["images/PA.CAF.SCEN.003.jpg", "The building was incorporated into the construction of the primary building for the Owen Graduate School of Management in 1982."]]
       },
       "geometry": {
         "type": "Point",
