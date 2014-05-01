@@ -403,7 +403,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pc.bld.srbc.005.jpg", "The Faye & Joe Wyatt Center for Education, originally called the Social-Religious Building, was built in 1915 with funds donated by Rockefeller."],["images/pc.bld.srbi.026.jpg", "The building has undergone extensive renovations with major additions of office and community space to the rear. "],["images/pc.bld.srbe.102.jpg", "Wyatt Center serves as a main academic building for Peabody College."],["images/wyatt.jpg", "The building boasts a large rotunda that is used for social events and lectures."]]
+	"images":[["images/pc.bld.srbc.005.jpg", "The Faye & Joe Wyatt Center for Education, originally called the Social-Religious Building, was built in 1915 with funds donated by John D. Rockefeller."],["images/pc.bld.srbi.026.jpg", "The building has undergone extensive renovations with major additions of office and community space to the rear. "],["images/pc.bld.srbe.102.jpg", "Wyatt Center presently serves as the Administrative and Technology Education Center."],["images/wyatt.jpg", "The building boasts a large rotunda that is used for social events and lectures."]]
       },
       "geometry": {
         "type": "Point",
@@ -439,7 +439,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pealibrary.jpg", "Peabody Library was built in 1919 in the Classical Revival style as seen in the pedimented portico, entablatures, and balustraded roof. "],["images/pc.bld.plii.010.jpg", "The Peabody Library building was built with a gift from the Carnegie Corporation. The building was constructed from 1917-19 and opened its doors May 30, 1919."],["images/pc.bld.plii.010.jpg", "As the Education Library since 1974, the collection focuses on the areas of education, psychology, human development, and library and information science. "],["images/peabody.jpg", "When Peabody College merged with Vanderbilt University in 1979, the Education Library became part of the University library system."]]
+	"images":[["images/pealibrary.jpg", "Peabody Library was built in 1919 in the Classical Revival style as seen in the pedimented portico, entablatures, and balustraded roof. "],["images/pc.bld.plii.010.jpg", "The Peabody Library building was built with a gift from the Carnegie Corporation. The building was constructed from 1917-19 and opened its doors May 30, 1919."],["images/pc.bld.plii.010.jpg", "The collection focuses on the areas of education, psychology, human development, and library and information science. "],["images/peabody.jpg", "When Peabody College merged with Vanderbilt University in 1979, the Education Library became part of the University library system."]]
       },
       "geometry": {
         "type": "Point",
@@ -601,7 +601,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.godc.2.jpg", "Godchaux Hall was built in the collegiate Gothic style in 1925. "],["images/pa.bld.godc.20.jpg", "It was built to house the school of nursing and now houses the school's faculty and administrative offices."],["images/pa.bld.godc.19.jpg", "It was renamed in 1971 for Mary Ragland Godchaux in recognition of her family's contributions to the university."]]
+	"images":[["images/pa.bld.godc.2.jpg", "Godchaux Hall was built in the Collegiate Gothic style in 1925. "],["images/pa.bld.godc.20.jpg", "It was built to house the school of nursing and now houses the school's faculty and administrative offices."],["images/pa.bld.godc.19.jpg", "It was renamed in 1971 for Mary Ragland Godchaux in recognition of her family's contributions to the university."]]
       },
       "geometry": {
         "type": "Point",
