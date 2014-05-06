@@ -25,7 +25,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.kish.019.jpg", "Originally the site of Kissam Hall (1901 & 1958) a men's dormitory."],["images/pa.com.1973.466.jpg", " Outdated and in need of renovation, the building was razed in 1958 to make way for Kissam Quadrangle. "],["images/pa.bld.kisq.007.jpg", "Kissam Quadrangle consisted of six dorms that housed 100 men each."],["images/pa.bld.kish.031.jpg", " Kissam Quadrangle found a similar fate to its predecessor when it was razed to make room for the Colleges at Kissam."],["images/render.jpg", "The site is currently composed of Warren and Moore Colleges which are part of Residence Education's college hall system. "]]
+	"images":[["images/pa.bld.kish.019.jpg", "Originally the site of Kissam Hall (1901 and 1958) a men's dormitory."],["images/pa.com.1973.466.jpg", " Outdated and in need of renovation, the building was razed in 1958 to make way for Kissam Quadrangle. "],["images/pa.bld.kisq.007.jpg", "Kissam Quadrangle consisted of six dorms that housed 100 men each."],["images/pa.bld.kish.031.jpg", " Kissam Quadrangle found a similar fate to its predecessor when it was razed to make room for the Colleges at Kissam."],["images/render.jpg", "The site is currently composed of Warren and Moore Colleges which are part of Residence Education's college hall system. "]]
       },
       "geometry": {
         "type": "Point",
@@ -56,7 +56,7 @@ var geoJson = [{
     {
       "type": "Feature",
       "properties": {
-        "title": "Barnard Hall & Vanderbilt Hall",
+        "title": "Barnard Hall and Vanderbilt Hall",
 
         "marker-size": "medium",
 	"marker-color": "#e5c278",
@@ -254,12 +254,12 @@ var geoJson = [{
     {
       "type": "Feature",
       "properties": {
-        "title": "Central Library & Library Lawn",
+        "title": "Central Library and Library Lawn",
 
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/PA.BLD.LIBR.1.jpg", "Library Lawn was originally the site of Old Wesley Hall."],["images/PA.BLD.LIBR.63.jpg","Construction of the Library began in 1940 and included amenities such as air conditioning and an Air Raid Shelter."],["images/PA.BLD.LIBR.4.jpg", "The architect’s plans originally called for the building to be 12 stories high."],["images/PA.BLD.LIBR.158.jpg","The H. Fort Flowers Graduate Wing was built in 1969."],["images/PA.BLD.LIBR.19.jpg", "The Central Library is one of eight libraries across the campus."],["images/PA.BLD.LIBR.38.jpg","The empty space left available by the removal of the ruins of Old Wesley Hall was dedicated on December 5th and 6th, 1941."],["images/PA.BLD.LIBR.25.jpg", "The idea of Joint University Libraries was the brainchild of Chancellor Carmichael."],["images/PA.BLD.LIBR.165.jpg","  The organization of the new system was led by A. Frederick Kuhlman, the Director of Libraries from 1936-1960."]]
+	"images":[["images/PA.BLD.LIBR.1.jpg", "Library Lawn was originally the site of Old Wesley Hall."],["images/PA.BLD.LIBR.63.jpg","Construction of the Library began in 1940 and included amenities such as air conditioning and an Air Raid Shelter."],["images/PA.BLD.LIBR.4.jpg", "The architect's plans originally called for the building to be 12 stories high."],["images/PA.BLD.LIBR.158.jpg","The H. Fort Flowers Graduate Wing was built in 1969."],["images/PA.BLD.LIBR.19.jpg", "The Central Library is one of eight libraries across the campus."],["images/PA.BLD.LIBR.38.jpg","The empty space left available by the removal of the ruins of Old Wesley Hall was dedicated on December 5th and 6th, 1941."],["images/PA.BLD.LIBR.25.jpg", "The idea of Joint University Libraries was the brainchild of Chancellor Carmichael."],["images/PA.BLD.LIBR.165.jpg","  The organization of the new system was led by A. Frederick Kuhlman, the Director of Libraries from 1936-1960."]]
       },
       "geometry": {
         "type": "Point",
@@ -290,7 +290,7 @@ var geoJson = [{
     {
       "type": "Feature",
       "properties": {
-        "title": "Tolman Hall & Old Kissam Cornerstone",
+        "title": "Tolman Hall and Old Kissam Cornerstone",
 
         "marker-size": "medium",
 	"marker-color": "#e5c278",
@@ -362,7 +362,7 @@ var geoJson = [{
     {
       "type": "Feature",
       "properties": {
-        "title": "Three Bishops & Garland",
+        "title": "Three Bishops and Garland",
 
         "marker-size": "medium",
 	"marker-color": "#e5c278",
@@ -403,7 +403,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pc.bld.srbc.005.jpg", "The Faye & Joe Wyatt Center for Education, originally called the Social-Religious Building, was built in 1915 with funds donated by John D. Rockefeller."],["images/pc.bld.srbi.026.jpg", "The building has undergone extensive renovations with major additions of office and community space to the rear. "],["images/pc.bld.srbe.102.jpg", "Wyatt Center presently serves as the Administrative and Technology Education Center."],["images/wyatt.jpg", "The building boasts a large rotunda that is used for social events and lectures."]]
+	"images":[["images/pc.bld.srbc.005.jpg", "The Faye and Joe Wyatt Center for Education, originally called the Social-Religious Building, was built in 1915 with funds donated by John D. Rockefeller."],["images/pc.bld.srbi.026.jpg", "The building has undergone extensive renovations with major additions of office and community space to the rear. "],["images/pc.bld.srbe.102.jpg", "Wyatt Center presently serves as the Administrative and Technology Education Center."],["images/wyatt.jpg", "The building boasts a large rotunda that is used for social events and lectures."]]
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +493,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pc.bld.fabc.012.jpg", "Cohen Hall, originally called Cohen Art Building & Museum, was built in 1928."],["images/cohen.jpg", "Cohen Hall is built in the Classical Revival style as evidenced by the entablatures and balustraded roof. "],["images/pc.bld.fabc.001.jpg", "Cohen Hall currently serves as the home of the Vanderbilt University Fine Arts Gallery. Admission to the gallery is free and open to the public."],["images/pc.bld.fabi.005.jpg", "<a href='http://www.vanderbilt.edu/gallery/visit.html'>Vanderbilt University Fine Arts Gallery</a>"]]
+	"images":[["images/pc.bld.fabc.012.jpg", "Cohen Hall, originally called Cohen Art Building and Museum, was built in 1928."],["images/cohen.jpg", "Cohen Hall is built in the Classical Revival style as evidenced by the entablatures and balustraded roof. "],["images/pc.bld.fabc.001.jpg", "Cohen Hall currently serves as the home of the Vanderbilt University Fine Arts Gallery. Admission to the gallery is free and open to the public."],["images/pc.bld.fabi.005.jpg", "<a href='http://www.vanderbilt.edu/gallery/visit.html'>Vanderbilt University Fine Arts Gallery</a>"]]
       },
       "geometry": {
         "type": "Point",
@@ -565,7 +565,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.kirh.117.26.jpg", "Old Science was built in 1880 in the Victorian style common to campus at the time."],["images/pa.bld.comp.1a.jpg", "Old Science is unique in that it is not aligned with either of the campus’ main axes but lies where they intersect."],["images/bensonscience.jpg", "Now known as Benson Science Hall, the building was dedicated to Robert Green Benson who established a one million dollar trust fund to restore the building."],["images/pa.caf.snow.027.jpg", "Students Playing in Snow, circa 1917"]]
+	"images":[["images/pa.bld.kirh.117.26.jpg", "Old Science was built in 1880 in the Victorian style common to campus at the time."],["images/pa.bld.comp.1a.jpg", "Old Science is unique in that it is not aligned with either of the campus' main axes but lies where they intersect."],["images/bensonscience.jpg", "Now known as Benson Science Hall, the building was dedicated to Robert Green Benson who established a one million dollar trust fund to restore the building."],["images/pa.caf.snow.027.jpg", "Students Playing in Snow, circa 1917"]]
       },
       "geometry": {
         "type": "Point",
@@ -583,7 +583,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.baro.11.jpg", "Barnard observatory was named for Edward E. Barnard who used the six inch refractor telescope to discover comets was a ranking authority on the Milky Way."],["images/pa.bld.baro.12.jpg", "The observatory was razed in 1952 due to the telescope’s lack of utility given the industrial haze and light pollution in Nashville."],["images/pa.bld.baro.16.jpg", "The observatory was designed by Chancellor Landon C. Garland who also served as a Professor of Physics and Astronomy."]]
+	"images":[["images/pa.bld.baro.11.jpg", "Barnard observatory was named for Edward E. Barnard who used the six inch refractor telescope to discover comets was a ranking authority on the Milky Way."],["images/pa.bld.baro.12.jpg", "The observatory was razed in 1952 due to the telescope's lack of utility given the industrial haze and light pollution in Nashville."],["images/pa.bld.baro.16.jpg", "The observatory was designed by Chancellor Landon C. Garland who also served as a Professor of Physics and Astronomy."]]
       },
       "geometry": {
         "type": "Point",
