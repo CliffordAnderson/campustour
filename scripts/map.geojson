@@ -8,7 +8,7 @@ var geoJson = [{
 		"marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[[ "images/pa.bld.comp.1h.jpg", "The cornerstone for Old Main, now Kirkland Hall, was laid on April 28, 1874."],[ "images/pa.bld.kirh.003.jpg", "Classes would begin in this building in just over a year the following fall with a little over 200 students."],["images/pa.ww1.35.jpg", "Old Main was the primary hub of the university in the early years."],["images/pa.bld.kirh.002.jpg", "Old Main has been known as Main Building, University Hall, College Hall, and, finally, Kirkland Hall."],["images/pa.bld.kirh.028.jpg", " On April 20, 1905 disaster would strike the University as a fire would destroy much of the building."],["images/pa.bld.kirh.100.jpg", "The fire would consume all but 4,000 volumes of the nearly 40,000 volumes in the library."],["images/pa.bld.kirh.049.jpg", "The building was remade in the image of the town hall of Siena, with the addition of the battlements on the roof and the singular bell tower."],["images/pa.caf.aeri.156.jpg", "Kirkland Hall has become the architectural symbol of the University."],["images/pa.bld.kirh.092.jpg", "Kirkland Hall was designed by a local Nashville architect, William C. Smith. The iconic building now serves as the administrative building."]]
+	"images":[[ "images/pa.bld.comp.1h.jpg", "The cornerstone for Old Main, now Kirkland Hall, was laid on April 28, 1874."],[ "images/pa.bld.kirh.003.jpg", "Classes would begin in this building in a year the following fall with a little over 200 students."],["images/pa.ww1.35.jpg", "Old Main was the primary hub of the university in the early years."],["images/pa.bld.kirh.002.jpg", "Old Main has been known as Main Building, University Hall, College Hall, and, finally, Kirkland Hall."],["images/pa.bld.kirh.028.jpg", " On April 20, 1905 disaster would strike the University as a fire would destroy much of the building."],["images/pa.bld.kirh.100.jpg", "The fire would consume all but 4,000 volumes of the nearly 40,000 volumes in the library."],["images/pa.bld.kirh.049.jpg", "The building was remade in the image of the town hall of Siena, with the addition of the battlements on the roof and the singular bell tower."],["images/pa.caf.aeri.156.jpg", "Kirkland Hall has become the architectural symbol of the University."],["images/pa.bld.kirh.092.jpg", "Kirkland Hall was designed by a local Nashville architect, William C. Smith. The iconic building now serves as the administrative building."]]
       },
       "geometry": {
         "type": "Point",
@@ -25,7 +25,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.kish.019.jpg", "Originally the site of Kissam Hall (1901 and 1958) a men's dormitory."],["images/pa.com.1973.466.jpg", " Outdated and in need of renovation, the building was razed in 1958 to make way for Kissam Quadrangle. "],["images/pa.bld.kisq.007.jpg", "Kissam Quadrangle consisted of six dorms that housed 100 men each."],["images/pa.bld.kish.031.jpg", " Kissam Quadrangle found a similar fate to its predecessor when it was razed to make room for the Colleges at Kissam."],["images/render.jpg", "The site is currently composed of Warren and Moore Colleges which are part of Residence Education's college hall system. "]]
+	"images":[["images/pa.bld.kish.019.jpg", "The original Kissam Hall was built in 1901 as a men’s dormitory.  It was tore down and replaced with a newer version of Kissam Hall in 1958."],["images/pa.com.1973.466.jpg", " Outdated and in need of renovation, the building was razed in 1958 to make way for Kissam Quadrangle. "],["images/pa.bld.kisq.007.jpg", "Kissam Quadrangle consisted of six dorms that housed 100 men each."],["images/pa.bld.kish.031.jpg", " Kissam Quadrangle found a similar fate to its predecessor when it was razed to make room for the Colleges at Kissam."],["images/render.jpg", "The site is currently composed of Warren and Moore Colleges which are part of Residence Education's college hall system. "]]
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +43,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.caf.stac.017.jpg", "The Commodore's Statue was created by the Italian-born sculptor Giuseppe Moretti in his New York studio."],["images/pa.caf.stac.017.jpg", "The sculpture was commissioned by Nashville citizens and officers of the Tennessee Centennial Exposition. "],["images/pa.caf.stac.027.jpg", "The statue was originally placed at the western end of the Parthenon during the 1887 Tennessee Centennial Exposition."],["images/pa.caf.stac.017.jpg", "Upon the closing of the exposition the statue was moved across the street to Vanderbilt's campus."],["images/pa.caf.stac.027.jpg", "The statue was initially positioned in front of the Kirkland Hall Tower, but it was eventually moved to its current location in 1949."]]
+	"images":[["images/pa.caf.stac.017.jpg", "The Commodore's Statue was created by the Italian-born sculptor Giuseppe Moretti in his New York studio."],["images/pa.caf.stac.017.jpg", "The sculpture was commissioned by Nashville citizens and officers of the Tennessee Centennial Exposition. "],["images/pa.caf.stac.027.jpg", "The statue was originally placed at the western end of the Parthenon during the 1897 Tennessee Centennial Exposition."],["images/pa.caf.stac.017.jpg", "Upon the closing of the exposition the statue was moved across the street to Vanderbilt's campus."],["images/pa.caf.stac.027.jpg", "The statue was initially positioned in front of the Kirkland Hall Tower, but it was eventually moved to its current location in 1949."]]
       },
       "geometry": {
         "type": "Point",
@@ -79,7 +79,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.comp.1e.jpg", "The Old Gym was designed by Peter J. Williamson in 1880 and built in the Victorian Gothic style."],["images/pa.com.1948.25.jpg", "It is now listed on the National Register of Historic Places."],["images/pa.com.1948.24.jpg", "It served as the social and recreational hub of the University and sporting events such as baseball games were held just outside and dances were held on the main floor."],["images/pa.alu.reun.253.jpg", "The building would see the addition of basketball gymnasium in 1920 only later to be removed in 1964. The building was built with funds provided by William Henry Vanderbilt, the son of Commodore Vanderbilt. "]]
+	"images":[["images/pa.bld.comp.1e.jpg", "The Old Gym was designed by Peter J. Williamson in 1880 and built in the Victorian Gothic style."],["images/pa.com.1948.25.jpg", "It is now listed on the National Register of Historic Places."],["images/pa.com.1948.24.jpg", "It served as the social and recreational hub of the University."],["images/pa.alu.reun.253.jpg", "The building would see the addition of a basketball gymnasium in 1920, only later to be removed in 1964. The building was built with funds provided by William Henry Vanderbilt, the son of Commodore Vanderbilt. "]]
       },
       "geometry": {
         "type": "Point",
@@ -115,7 +115,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.buth.8.jpg", "Buttrick Hall was in 1928 to house the biology department and had a greenhouse attached to it."],["images/pa.bld.buth.10.jpg", "The construction was accompanied by that of Garland and Calhoun Halls as an effort to bolster the liberal arts at the University."],["images/pa.bld.buth.24.jpg", "Buttrick Hall is currently the home to state of the art classroom space, faculty and administrative offices"]]
+	"images":[["images/pa.bld.buth.8.jpg", "Buttrick Hall was built in 1928 to house the biology department and had a greenhouse attached to it."],["images/pa.bld.buth.10.jpg", "The construction was accompanied by that of Garland and Calhoun Halls as an effort to bolster the liberal arts at the University."],["images/pa.bld.buth.24.jpg", "Buttrick Hall is currently the home to state of the art classroom space, faculty and administrative offices"]]
       },
       "geometry": {
         "type": "Point",
@@ -169,7 +169,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/sc.mss.0332.101n.jpg", "These buildings were the earliest student housing building on campus."],["images/westsidecottage2.jpg", "There were initially six identical cottages constructed in 1886 and 1887. "],["images/pa.fas.staf.012.jpg", "Students named the cottages Alpha, Belleview, Cumberland, Delphi, Euclid, and Franklin in that order starting at West End. "],["images/westsidecottage2.jpg", "The buildings currently house the Women's Center, a LGBQTI Center, and various Greek student organizations."],["images/euclid.jpg", "Euclid Plaque"]]
+	"images":[["images/sc.mss.0332.101n.jpg", "These buildings were the earliest student housing built on campus."],["images/westsidecottage2.jpg", "There were initially six identical cottages constructed in 1886 and 1887. "],["images/pa.fas.staf.012.jpg", "Students named the cottages Alpha, Belleview, Cumberland, Delphi, Euclid, and Franklin in that order starting at West End. "],["images/westsidecottage2.jpg", "The buildings currently house the Women's Center, a LGBQTI Center, and various Greek student organizations."],["images/euclid.jpg", "Euclid Plaque"]]
       },
       "geometry": {
         "type": "Point",
@@ -259,7 +259,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/PA.BLD.LIBR.1.jpg", "Library Lawn was originally the site of Old Wesley Hall."],["images/PA.BLD.LIBR.63.jpg","Construction of the Library began in 1940 and included amenities such as air conditioning and an Air Raid Shelter."],["images/PA.BLD.LIBR.4.jpg", "The architect's plans originally called for the building to be 12 stories high."],["images/PA.BLD.LIBR.158.jpg","The H. Fort Flowers Graduate Wing was built in 1969."],["images/PA.BLD.LIBR.19.jpg", "The Central Library is one of eight libraries across the campus."],["images/PA.BLD.LIBR.38.jpg","The empty space left available by the removal of the ruins of Old Wesley Hall was dedicated on December 5th and 6th, 1941."],["images/PA.BLD.LIBR.25.jpg", "The idea of Joint University Libraries was the brainchild of Chancellor Carmichael."],["images/PA.BLD.LIBR.165.jpg","  The organization of the new system was led by A. Frederick Kuhlman, the Director of Libraries from 1936-1960."]]
+	"images":[["images/PA.BLD.LIBR.1.jpg", "Library Lawn was originally the site of Old Wesley Hall."],["images/PA.BLD.LIBR.63.jpg","Construction of the Library began in 1940 and included amenities such as air conditioning and an Air Raid Shelter."],["images/PA.BLD.LIBR.4.jpg", "The architect's plans originally called for the building to be 12 stories high."],["images/PA.BLD.LIBR.158.jpg","The H. Fort Flowers Graduate Wing was built in 1969."],["images/PA.BLD.LIBR.19.jpg", "The Central Library is one of eight libraries across the campus."],["images/PA.BLD.LIBR.38.jpg","The empty space left available by the removal of the ruins of Old Wesley Hall was dedicated on became the Library Lawn."],["images/PA.BLD.LIBR.25.jpg", "The idea of Joint University Libraries was the brainchild of Chancellor Carmichael."],["images/PA.BLD.LIBR.165.jpg","  The organization of the new system was led by A. Frederick Kuhlman, the Director of Libraries from 1936-1960."]]
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +295,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/tolman.jpg", "Tolman Hall was constructed in 1947 following World War II to accommodate all of the returning soldiers that were enrolling in college in very large numbers."],["images/tolman.jpg", " In the immediate years after World War II veterans would comprise over half of all students enrolled at Vanderbilt. "],["images/pa.com.1973.466.jpg", "The inscribed cornerstone from Old Kissam Hall is embedded as a plaque into the front left façade of Tolman Hall. Tolman Hall still serves as an upperclassmen dormitory."]]
+	"images":[["images/tolman.jpg", "Tolman Hall was constructed in 1947, following World War II, to accommodate all of the returning soldiers that were enrolling in college in very large numbers."],["images/tolman.jpg", " In the immediate years after World War II, veterans would comprise over half of all students enrolled at Vanderbilt. "],["images/pa.com.1973.466.jpg", "The inscribed cornerstone from Old Kissam Hall is embedded as a plaque into the front left façade of Tolman Hall. Tolman Hall still serves as an upperclassmen dormitory."]]
       },
       "geometry": {
         "type": "Point",
@@ -349,7 +349,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.com.1975.211.jpg", "Old Central is the oldest building on the Vanderbilt Campus. The building was home to Mr. and Mrs. Henry Foote. "],["images/old central.jpg", "Henry Foote had formerly been the Governor of Mississippi prior to relocating to Nashville."],["images/pa.com.1975.211.jpg", "The building was actually occupied by Union forces as the Union encampment and battle lines actually traversed the land that would eventually be part of campus."],["images/old central p.jpg", "Old Central currently houses the English Department and the Graduate Program in Economic Development."]]
+	"images":[["images/pa.com.1975.211.jpg", "Old Central is the oldest building on the Vanderbilt Campus. The building was home to Mr. and Mrs. Henry Foote. "],["images/old central.jpg", "Henry Foote had formerly been the Governor of Mississippi prior to relocating to Nashville."],["images/pa.com.1975.211.jpg", "The building was occupied by Union forces as the Union encampment and battle lines traversed the land that would eventually be part of campus."],["images/old central p.jpg", "Old Central currently houses the English Department and the Graduate Program in Economic Development."]]
       },
       "geometry": {
         "type": "Point",
@@ -385,7 +385,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.comp.1g.jpg", "The Mechanical Engineering Hall was the first facility built specifically for engineering education in the State of Tennessee."],["images/pa.com.1951.132.jpg", "Funds donated by Cornelius II, the grandson of Commodore Vanderbilt, were used for the original construction."],["images/PA.CAF.SCEN.003.jpg", "The building was incorporated into the construction of the primary building for the Owen Graduate School of Management in 1982."]]
+	"images":[["images/pa.bld.comp.1g.jpg", "The Mechanical Engineering Hall was the first facility built specifically for engineering education in the State of Tennessee."],["images/pa.com.1951.132.jpg", "It was funds donated by Cornelius II, the grandson of Commodore Vanderbilt, were used for the original construction."],["images/PA.CAF.SCEN.003.jpg", "The building was incorporated into the construction of the primary building for the Owen Graduate School of Management in 1982."]]
       },
       "geometry": {
         "type": "Point",
@@ -421,7 +421,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pc.bld.cone.009.jpg", "Memorial Hall was built as a women's dormitory in 1933, in part funds from the United Daughters of the Confederacy.  "],["images/memorial house.jpg", "Originally named Confederate Memorial Hall, the University decided to rename the building Memorial Hall in 2002."],["images/memorialpl.jpg", "Memorial Hall is built in the Classical Revival style as evidenced by the pedimented portico, entablatures, and balustraded roof."],["images/pc.bld.cone.009.jpg", "Memorial House was renovated in 1987 with additional modernization in the summers of 2006 and 2007."]]
+	"images":[["images/pc.bld.cone.009.jpg", "Memorial Hall was built as a women's dormitory in 1933, in part with funds from the United Daughters of the Confederacy.  "],["images/memorial house.jpg", "Originally named Confederate Memorial Hall, the University decided to rename the building Memorial Hall in 2002."],["images/memorialpl.jpg", "Memorial Hall is built in the Classical Revival style as evidenced by the pedimented portico, entablatures, and balustraded roof."],["images/pc.bld.cone.009.jpg", "Memorial House was renovated in 1987 with additional modernization in the summers of 2006 and 2007."]]
       },
       "geometry": {
         "type": "Point",
@@ -547,7 +547,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/sc.mss.0159.343.jpg", "Wesley Hall burned February 19, 1932 on the site that is now Library Lawn.  The disaster coincided with height of the Great Depression. "],["images/sc.mss.0332.099n.jpg", "Wesley Hall was the home of the Biblical School and was a dormitory that even featured a cafeteria. "],["images/pa.cpn.misc.09.jpg", "Vanderbilt's finances were such that the charred ruins could not be removed for over a decade.  In 1940, bricks from the ruins were used to build the first non-nursing women's dorm on campus, McTyeire Hall."]]
+	"images":[["images/sc.mss.0159.343.jpg", "Wesley Hall burned February 19, 1932, on the site that is now Library Lawn.  The disaster occurred at the height of the Great Depression. "],["images/sc.mss.0332.099n.jpg", "Wesley Hall was the home of the Biblical School and was a dormitory that even featured a cafeteria. "],["images/pa.cpn.misc.09.jpg", "Vanderbilt's finances were such that the charred ruins could not be removed for over a decade.  In 1940, bricks from the ruins were used to build the first non-nursing women's dorm on campus, McTyeire Hall."]]
       },
       "geometry": {
         "type": "Point",
@@ -583,7 +583,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.baro.11.jpg", "Barnard observatory was named for Edward E. Barnard who used the six inch refractor telescope to discover comets was a ranking authority on the Milky Way."],["images/pa.bld.baro.12.jpg", "The observatory was razed in 1952 due to the telescope's lack of utility given the industrial haze and light pollution in Nashville."],["images/pa.bld.baro.16.jpg", "The observatory was designed by Chancellor Landon C. Garland who also served as a Professor of Physics and Astronomy."]]
+	"images":[["images/pa.bld.baro.11.jpg", "Barnard observatory was named for Edward E. Barnard who used the six inch refractor telescope to discover comets."],["images/pa.bld.baro.12.jpg", "The observatory was razed in 1952 due to the telescope's lack of utility given the industrial haze and light pollution in Nashville."],["images/pa.bld.baro.16.jpg", "The observatory was designed by Chancellor Landon C. Garland who also served as a Professor of Physics and Astronomy."]]
       },
       "geometry": {
         "type": "Point",
@@ -601,7 +601,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.godc.2.jpg", "Godchaux Hall was built in the Collegiate Gothic style in 1925. "],["images/pa.bld.godc.20.jpg", "It was built to house the school of nursing and now houses the school's faculty and administrative offices."],["images/pa.bld.godc.19.jpg", "It was renamed in 1971 for Mary Ragland Godchaux in recognition of her family's contributions to the university."]]
+	"images":[["images/pa.bld.godc.2.jpg", "Godchaux Hall was built in the Collegiate Gothic style in 1925. "],["images/pa.bld.godc.20.jpg", "It was built to house the School of Nursing and now houses the school's faculty and administrative offices."],["images/pa.bld.godc.19.jpg", "It was renamed in 1971 for Mary Ragland Godchaux in recognition of her family's contributions to the university."]]
       },
       "geometry": {
         "type": "Point",
@@ -655,7 +655,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/pc.bld.hoeb.020.jpg", "Home Economics was built in 1914 and was the second built on the Peabody campus."],["images/sc.mss.0558.31.jpg", "The building serves as program offices and classroom space for graduate and undergraduate students."]]
+	"images":[["images/pc.bld.hoeb.020.jpg", "Home Economics was built in 1914 and was the second structure erected on the Peabody campus."],["images/sc.mss.0558.31.jpg", "The building serves as program offices and classroom space for graduate and undergraduate students."]]
       },
       "geometry": {
         "type": "Point",
@@ -673,7 +673,7 @@ var geoJson = [{
         "marker-size": "medium",
 	"marker-color": "#e5c278",
 	"marker-symbol": "star-stroked",
-	"images":[["images/boxplaq.jpg", "These boxwoods were transfered from C. Madison Sarratt's family home in 1974. "],["images/boxwood.jpg", "The transfer from the Gaffney, SC estate was overseen by the Vanderbilt Garden Club. "],["images/pa.por.sarc.047.jpg", "C. Madison Sarratt, Mathmatics Professor and Dean of Students"]]
+	"images":[["images/boxplaq.jpg", "These boxwoods were transferred from C. Madison Sarratt's family home in 1974. "],["images/boxwood.jpg", "The transfer from the Gaffney, SC, estate was overseen by the Vanderbilt Garden Club. "],["images/pa.por.sarc.047.jpg", "C. Madison Sarratt, Mathmatics Professor and Dean of Students"]]
       },
       "geometry": {
         "type": "Point",
