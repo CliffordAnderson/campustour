@@ -7,16 +7,14 @@
   <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-   
-    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+  <link href="https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css" rel="stylesheet"/>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/map.css" rel='stylesheet'/>
-   <link href="css/bootstrap.css" rel='stylesheet'/>
 </head>
 <body>
-<div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+<div class="navbar navbar-default navbar-static-top">
         <div class="navbar-header">
-          <a href="../" class="navbar-brand">VU Historical Tour</a>
+          <a href="/" class="navbar-brand">VU Historical Tour</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -26,7 +24,7 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li>
-              <a href="http://www.library.vanderbilt.edu/about/deansfellowsprojects.php#tour">About</a>
+              <a href="http://www.library.vanderbilt.edu/about/historicatour.php">About</a>
             </li>
             <li>
               <a href="/">Vanderbilt Library</a>
@@ -37,13 +35,15 @@
           </ul>
         </div>
       </div>
-    </div>
-    <div id='map'>
+	  <div id="alert" class="alert alert-warning">
+      <span class="glyphicon glyphicon-exclamation-sign"></span>
+      <strong>Warning:</strong> We could not accurately locate you on the Vanderbilt campus.</div>
+    <div id="map">
 	</div>
 
     <script src="scripts/map.geojson"></script>
     <script src="scripts/map.js"></script>
     <script src="scripts/locate.js"></script>
-	
+
   </body>
 </html>

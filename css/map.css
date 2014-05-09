@@ -1,28 +1,13 @@
-/* University Library Header Style */
+/* Custom Styles */
+
+.navbar {
+    margin-bottom: 0px;
+}
 
 @media (min-width: 768px) {
-    #header-logo {
-        float: left;
-        width: 305px;
-        height: 107px;
-        margin-top: 10px;
-        background: url('http://www.library.vanderbilt.edu/assets/images/logo-vandy-library.png');
-        background-repeat: no-repeat;
-        background-color: transparent;
-        margin-right: 15px;
-    }
-
-    .navbar-default {
-        background-color: black;
-    }
-
-    .navbar {
-        margin-bottom: 0px;
-    }
-
     .navbar-nav.navbar-right:last-child {
         margin-right: 0px;
-    };
+    }
 }
 
 .caption {
@@ -32,7 +17,11 @@
 
 /* Map Div */
 
-#map { position:absolute; height:100%; width:100%; margin-top: 50px;}
+#map {
+  position:absolute;
+  height:100%;
+  width:100%;
+}
 
 /* MapBox Popup Marker Styling */
 /* Adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/markers-with-image-slideshow/ */
@@ -66,4 +55,11 @@
 }
 .popup .cycle a.next {
     float: right;
+}
+
+/* Alert message */
+
+#alert {
+  display:none;
+  margin-bottom:0px;
 }
