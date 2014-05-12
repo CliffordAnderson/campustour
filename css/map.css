@@ -59,7 +59,7 @@
 
 /* Alert message */
 
-#alert {
+#alert-vucampus, #alert-browser {
   display:none;
   margin-bottom:0px;
 }

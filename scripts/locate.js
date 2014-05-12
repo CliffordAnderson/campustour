@@ -7,7 +7,7 @@ var geolocate = document.getElementById('geolocate');
 // This uses the HTML5 geolocation API, which is available on
 // most mobile browsers and modern browsers, but not in Internet Explorer
 if (!navigator.geolocation) {
-    showAlert();
+    showAlert('alert-browser');
 } else {
     geolocate.onclick = function (e) {
         e.preventDefault();
@@ -25,7 +25,7 @@ map.on('locationfound', function(e) {
     // If the location is detected as out of bounds, show warning and re-center on the map center
 	if (e.latlng.lat < 36.137 || e.latlng.lat > 36.150 || e.latlng.lng > -86.796 || e.latlng.lng < -86.816)
   {
-		showAlert();
+		showAlert('alert-vucampus');
     map.setView([36.145733, -86.800675], 16);
   } else
   {
@@ -51,19 +51,18 @@ map.on('locationfound', function(e) {
 // If the user chooses not to allow their location
 // to be shared, display an error message.
 map.on('locationerror', function() {
-    showAlert();
+    showAlert('alert-browser');
     $('#geolocate').removeClass('requesting'); // remove spinning icon when the device is not located
 });
 
 // Show and hide the alert box
-
-function showAlert(){
-  $("#alert").css({"display": "block"}).addClass("in");
+function showAlert(alert_id){
+  $("#"+alert_id).css({"display": "block"}).addClass("in");
   window.setTimeout(function () {
-     hideAlert();
+     hideAlert(alert_id);
   }, 4000);
 }
 
-function hideAlert(){
-  $("#alert").removeClass("in").css({"display": "none"});
+function hideAlert(alert_id){
+  $("#"+alert_id).removeClass("in").css({"display": "none"});
 }
