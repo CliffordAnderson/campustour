@@ -7,7 +7,7 @@ var geolocate = document.getElementById('geolocate');
 // This uses the HTML5 geolocation API, which is available on
 // most mobile browsers and modern browsers, but not in Internet Explorer
 if (!navigator.geolocation) {
-    geolocate.innerHTML = ':(';
+    showAlert();
 } else {
     geolocate.onclick = function (e) {
         e.preventDefault();
@@ -26,9 +26,6 @@ map.on('locationfound', function(e) {
 	if (e.latlng.lat < 36.137 || e.latlng.lat > 36.150 || e.latlng.lng > -86.796 || e.latlng.lng < -86.816)
   {
 		showAlert();
-		window.setTimeout(function () {
-		    hideAlert();
-		}, 4000);
     map.setView([36.145733, -86.800675], 16);
   } else
   {
@@ -54,7 +51,7 @@ map.on('locationfound', function(e) {
 // If the user chooses not to allow their location
 // to be shared, display an error message.
 map.on('locationerror', function() {
-    geolocate.innerHTML = ':(';
+    showAlert();
     $('#geolocate').removeClass('requesting'); // remove spinning icon when the device is not located
 });
 
@@ -62,6 +59,9 @@ map.on('locationerror', function() {
 
 function showAlert(){
   $("#alert").css({"display": "block"}).addClass("in");
+  window.setTimeout(function () {
+     hideAlert();
+  }, 4000);
 }
 
 function hideAlert(){
