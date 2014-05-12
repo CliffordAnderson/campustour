@@ -54,7 +54,7 @@ map.on('locationfound', function(e) {
 // If the user chooses not to allow their location
 // to be shared, display an error message.
 map.on('locationerror', function() {
-    geolocate.innerHTML = ':(';
+    // TODO: Pop up warning message
     $('#geolocate').removeClass('requesting'); // remove spinning icon when the device is not located
 });
 
