@@ -1,5 +1,7 @@
 //Adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/geolocation/
 
+// insert arrow icon into the map under the zoom controls
+$('#map .leaflet-control-container div').first().append('<div id="geolocate" class="leaflet-control-locate leaflet-bar leaflet-control"><a class="leaflet-bar-part leaflet-bar-part-single" href="#" title="Show me where I am"></a></div>');
 var geolocate = document.getElementById('geolocate');
 
 // This uses the HTML5 geolocation API, which is available on
@@ -11,11 +13,14 @@ if (!navigator.geolocation) {
         e.preventDefault();
         e.stopPropagation();
         map.locate({maxZoom: 19, enableHighAccuracy: true});
+        $('#geolocate').addClass("requesting"); // add spinning icon while locating the device
     };
 }
 
 // Once we've got a position, add a tooltip to indicate the user's position
 map.on('locationfound', function(e) {
+  $('#geolocate').removeClass('requesting'); // remove spinning icon; we will either locate the device or not below
+
     // Bounds of Vanderbilt campus ([36.150, -86.795], [36.137, -86.816])
     // If the location is detected as out of bounds, show warning and re-center on the map center
 	if (e.latlng.lat < 36.137 || e.latlng.lat > 36.150 || e.latlng.lng > -86.796 || e.latlng.lng < -86.816)
@@ -42,6 +47,7 @@ map.on('locationfound', function(e) {
     };
     geoJson["locations"] = geoJson.push(loc);
     map.featureLayer.setGeoJSON(geoJson);
+    $('#geolocate').addClass('active'); // change the arrow to blue when the device is found
   }
 });
 
@@ -49,6 +55,7 @@ map.on('locationfound', function(e) {
 // to be shared, display an error message.
 map.on('locationerror', function() {
     geolocate.innerHTML = ':(';
+    $('#geolocate').removeClass('requesting'); // remove spinning icon when the device is not located
 });
 
 // Show and hide the alert box
