@@ -4,7 +4,7 @@ var map = L.mapbox.map('map', 'vulibrarygis.hj4f8a4e', {
             minZoom: 12,
             maxZoom: 19,
             maxBounds: [[36.12,-86.75], [36.17,-86.85]]});
-			
+
 
 
 // Add custom popup html to each marker
@@ -44,8 +44,21 @@ map.markerLayer.on('layeradd', function(e) {
     });
 });
 
-// Add features to the map
-map.markerLayer.setGeoJSON(geoJson);
+$(function () {
+
+// Gather GeoJSON points from CouchDB/Cloudant using JSONP
+    $.getJSON("https://vulibrarygis.cloudant.com/campustour/_design/tour/_view/historicalTour?callback=?", function (result) {
+        var points = result.rows;
+        var geoJSON =[];
+        for (var i in points) {
+            geoJSON[ "locations"] = geoJSON.push(points[i].value);
+        }
+        // Add features to the map
+        map.markerLayer.setGeoJSON(geoJSON);
+
+    });
+
+});
 
 // This example uses jQuery to make selecting items in the slideshow easier.
 // Download it from http://jquery.com
