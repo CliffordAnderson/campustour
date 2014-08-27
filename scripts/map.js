@@ -47,7 +47,7 @@ map.markerLayer.on('layeradd', function(e) {
 $(function () {
 
 // Gather GeoJSON points from CouchDB/Cloudant using JSONP
-    $.getJSON("https://vulibrarygis.cloudant.com/campustour/_design/tour/_view/historicalTour?callback=?", function (result) {
+    $.getJSON("https://vulibrarygis.cloudant.com/campustour/_design/tour/_view/recycling?callback=?", function (result) {
         var points = result.rows;
         var geoJSON =[];
         for (var i in points) {
