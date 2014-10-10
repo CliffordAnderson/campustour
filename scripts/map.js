@@ -44,22 +44,6 @@ map.markerLayer.on('layeradd', function(e) {
     });
 });
 
-$(function () {
-
-// Gather GeoJSON points from CouchDB/Cloudant using JSONP
-    $.getJSON("https://vulibrarygis.cloudant.com/campustour/_design/tour/_view/recycling?callback=?", function (result) {
-        var points = result.rows;
-        var geoJSON =[];
-        for (var i in points) {
-            geoJSON[ "locations"] = geoJSON.push(points[i].value);
-        }
-        // Add features to the map
-        map.markerLayer.setGeoJSON(geoJSON);
-
-    });
-
-});
-
 // This example uses jQuery to make selecting items in the slideshow easier.
 // Download it from http://jquery.com
 $('#map').on('click', '.popup .cycle a', function() {
@@ -84,3 +68,38 @@ $('#map').on('click', '.popup .cycle a', function() {
 });
 
 map.setView([36.145733, -86.800675], 16);
+
+
+// Get the points from Cloudant using JSONP
+// http://stackoverflow.com/questions/14220321/how-to-return-the-response-from-an-ajax-call
+$(function() {
+    var cloudantViews = [
+        // 'historicalTour',
+        // 'buildings',
+        // 'sculpture',
+        // 'trees',
+        'recycling'
+    ];
+    var cloudantURLbase = "https://vulibrarygis.cloudant.com/campustour/_design/tour/_view/";
+    var cloudantURLcallback = "?callback=?";
+    $.each(cloudantViews, function(i) {
+        var thisCloudantURL = cloudantURLbase + cloudantViews[i] + cloudantURLcallback;
+        getLayer(processLayer, thisCloudantURL)
+    });
+});
+
+function getLayer(callback, cloudantURL) {
+    $.getJSON(cloudantURL, function(result) {
+        var points = result.rows;
+        var geoJSON = [];
+        for (var i in points) {
+            geoJSON["locations"] = geoJSON.push(points[i].value);
+        }
+        callback(geoJSON);
+    });
+}
+
+function processLayer(result) {
+    // Add features to the map
+    map.markerLayer.setGeoJSON(result);
+}
