@@ -5,8 +5,6 @@ var map = L.mapbox.map('map', 'vulibrarygis.hj4f8a4e', {
             maxZoom: 19,
             maxBounds: [[36.12,-86.75], [36.17,-86.85]]});
 
-
-
 // Add custom popup html to each marker
 map.markerLayer.on('layeradd', function(e) {
     var marker = e.layer;
@@ -69,27 +67,38 @@ $('#map').on('click', '.popup .cycle a', function() {
 
 map.setView([36.145733, -86.800675], 16);
 
-
 // Get the points from Cloudant using JSONP
 // http://stackoverflow.com/questions/14220321/how-to-return-the-response-from-an-ajax-call
 $(function() {
+    // list views from Cloudant that we want to offer as layers
+    // make this pull dynamically from Cloudant API https://github.com/HeardLibrary/campus-tour/issues/3
     var cloudantViews = [
         // 'historicalTour',
-        // 'buildings',
-        // 'sculpture',
-        // 'trees',
+        'buildings',
+        'sculpture',
+        'trees',
         'recycling'
     ];
-    var cloudantURLbase = "https://vulibrarygis.cloudant.com/campustour/_design/tour/_view/";
-    var cloudantURLcallback = "?callback=?";
-    $.each(cloudantViews, function(i) {
-        var thisCloudantURL = cloudantURLbase + cloudantViews[i] + cloudantURLcallback;
-        getLayer(processLayer, thisCloudantURL)
+    // put each view into the dropdown menu
+    $.each(cloudantViews, function(i, viewname) {
+        $('#layers-dropdown').append('<option value="' + viewname + '">' + viewname + '</option>');
+    });
+    // when the user selects from the dropdown, change the layer
+    $('#layers-dropdown').change(function() {
+        var selection_label = $('#layers-dropdown option:selected').text();
+        var selection_value = $('#layers-dropdown').val();
+        if (selection_value !== 'default') {
+            var thisCloudantView = selection_value;
+            getLayer(processLayer, thisCloudantView);
+        }
     });
 });
 
-function getLayer(callback, cloudantURL) {
-    $.getJSON(cloudantURL, function(result) {
+function getLayer(callback, cloudantView) {
+    var cloudantURLbase = "https://vulibrarygis.cloudant.com/campustour/_design/tour/_view/";
+    var cloudantURLcallback = "?callback=?";
+    var thisCloudantURL = cloudantURLbase + cloudantView + cloudantURLcallback;
+    $.getJSON(thisCloudantURL, function(result) {
         var points = result.rows;
         var geoJSON = [];
         for (var i in points) {
@@ -101,5 +110,5 @@ function getLayer(callback, cloudantURL) {
 
 function processLayer(result) {
     // Add features to the map
-    map.markerLayer.setGeoJSON(result);
+    map.featureLayer.setGeoJSON(result);
 }
