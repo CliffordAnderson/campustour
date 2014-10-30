@@ -12,3 +12,4 @@ The project uses:
 - [MapBox](https://www.mapbox.com/mapbox.js/) to create the visual popups.
 - [Bootstrap](http://getbootstrap.com/) for web design.
 
+All code contributed by the staff members of the Jean and Alexander Heard Library is licensed under the GPLv3. Third-party code is governed by the respective licenses.
