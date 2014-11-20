@@ -77,7 +77,18 @@ $(function() {
         'buildings',
         'sculpture',
         'trees',
-        'recycling'
+        'recycling',
+        'aluminum',
+        'batteries',
+        'cardboard',
+        'cartridge',
+        'cfl',
+        'glass',
+        'paper',
+        'pens',
+        'plastic',
+        'tin cans',
+
     ];
     // put each view into the dropdown menu
     $.each(cloudantViews, function(i, viewname) {
