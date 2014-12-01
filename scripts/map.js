@@ -70,30 +70,21 @@ map.setView([36.145733, -86.800675], 19);
 // Get the points from Cloudant using JSONP
 // http://stackoverflow.com/questions/14220321/how-to-return-the-response-from-an-ajax-call
 $(function() {
-    // list views from Cloudant that we want to offer as layers
-    // make this pull dynamically from Cloudant API https://github.com/HeardLibrary/campus-tour/issues/3
-    var cloudantViews = [
-        // 'historicalTour',
-        'buildings',
-        'sculpture',
-        'trees',
-        'recycling',
-        'aluminum',
-        'batteries',
-        'cardboard',
-        'cartridge',
-        'cfl',
-        'glass',
-        'paper',
-        'pens',
-        'plastic',
-        'tin cans',
 
-    ];
-    // put each view into the dropdown menu
-    $.each(cloudantViews, function(i, viewname) {
-        $('#layers-dropdown').append('<option value="' + viewname + '">' + viewname + '</option>');
+    // list views from Cloudant that we want to offer as layers
+    var cloudantViews = [];
+    $.getJSON('https://vulibrarygis.cloudant.com/campustour/_design/tour', function(result) {
+        var viewsList = result.views;
+        for (var v in viewsList) {
+            cloudantViews.push(v);
+        }
+
+        // put each view into the dropdown menu
+        $.each(cloudantViews, function(i, viewname) {
+            $('#layers-dropdown').append('<option value="' + viewname + '">' + viewname + '</option>');
+        });
     });
+
     // when the user selects from the dropdown, change the layer
     $('#layers-dropdown').change(function() {
         var selection_label = $('#layers-dropdown option:selected').text();
