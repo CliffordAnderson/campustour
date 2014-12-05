@@ -9,7 +9,7 @@ var map = L.mapbox.map('map', 'vulibrarygis.hj4f8a4e', {
 map.markerLayer.on('layeradd', function(e) {
     var marker = e.layer;
     var feature = marker.feature;
-    var images = feature.properties.images
+    var images = feature.properties.images;
     var slideshowContent = '';
 
     for(var i = 0; i < images.length; i++) {
@@ -30,7 +30,7 @@ map.markerLayer.on('layeradd', function(e) {
     '<div class="cycle">' +
     '<a href="#" class="prev">&laquo; Previous</a>' +
     '<a href="#" class="next">Next &raquo;</a>' +
-    '</div>'
+    '</div>';
     '</div>';
 
     // http://leafletjs.com/reference.html#popup
