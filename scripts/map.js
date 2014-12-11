@@ -4,21 +4,19 @@ var map = L.mapbox.map('map', 'vulibrarygis.hj4f8a4e', {
             minZoom: 12,
             maxZoom: 19,
             maxBounds: [[36.12,-86.75], [36.17,-86.85]]});
-			
-
 
 // Add custom popup html to each marker
 map.markerLayer.on('layeradd', function(e) {
     var marker = e.layer;
     var feature = marker.feature;
-    var images = feature.properties.images
+    var images = feature.properties.images;
     var slideshowContent = '';
 
     for(var i = 0; i < images.length; i++) {
         var img = images[i];
 
         slideshowContent += '<div class="image' + (i === 0 ? ' active' : '') + '">' +
-        '<img src="' + img[0] + '" />' +
+        img[0] +
         '<div class="caption">' + img[1] + '</div>' +
         '</div>';
     }
@@ -32,7 +30,7 @@ map.markerLayer.on('layeradd', function(e) {
     '<div class="cycle">' +
     '<a href="#" class="prev">&laquo; Previous</a>' +
     '<a href="#" class="next">Next &raquo;</a>' +
-    '</div>'
+    '</div>';
     '</div>';
 
     // http://leafletjs.com/reference.html#popup
@@ -43,9 +41,6 @@ map.markerLayer.on('layeradd', function(e) {
         keepInView: true
     });
 });
-
-// Add features to the map
-map.markerLayer.setGeoJSON(geoJson);
 
 // This example uses jQuery to make selecting items in the slideshow easier.
 // Download it from http://jquery.com
@@ -70,4 +65,52 @@ $('#map').on('click', '.popup .cycle a', function() {
     return false;
 });
 
-map.setView([36.145733, -86.800675], 16);
+map.setView([36.145733, -86.800675], 19);
+
+// Get the points from Cloudant using JSONP
+// http://stackoverflow.com/questions/14220321/how-to-return-the-response-from-an-ajax-call
+$(function() {
+
+    // list views from Cloudant that we want to offer as layers
+    var cloudantViews = [];
+    $.getJSON('https://vulibrarygis.cloudant.com/campustour/_design/tour', function(result) {
+        var viewsList = result.views;
+        for (var v in viewsList) {
+            cloudantViews.push(v);
+        }
+
+        // put each view into the dropdown menu
+        $.each(cloudantViews, function(i, viewname) {
+            $('#layers-dropdown').append('<option value="' + viewname + '">' + viewname + '</option>');
+        });
+    });
+
+    // when the user selects from the dropdown, change the layer
+    $('#layers-dropdown').change(function() {
+        var selection_label = $('#layers-dropdown option:selected').text();
+        var selection_value = $('#layers-dropdown').val();
+        if (selection_value !== 'default') {
+            var thisCloudantView = selection_value;
+            getLayer(processLayer, thisCloudantView);
+        }
+    });
+});
+
+function getLayer(callback, cloudantView) {
+    var cloudantURLbase = "https://vulibrarygis.cloudant.com/campustour/_design/tour/_view/";
+    var cloudantURLcallback = "?callback=?";
+    var thisCloudantURL = cloudantURLbase + cloudantView + cloudantURLcallback;
+    $.getJSON(thisCloudantURL, function(result) {
+        var points = result.rows;
+        var geoJSON = [];
+        for (var i in points) {
+            geoJSON["locations"] = geoJSON.push(points[i].value);
+        }
+        callback(geoJSON);
+    });
+}
+
+function processLayer(result) {
+    // Add features to the map
+    map.featureLayer.setGeoJSON(result);
+}
