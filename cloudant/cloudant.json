@@ -436,7 +436,7 @@
     },
     {
       "_id": "25dcf2b21de9ae2b7ce30a308d53d195",
-      "_rev": "14-a31d07aabbbd9d5c3bd0d04d8e801fad",
+      "_rev": "16-15ea63d7859e9d95b3ad89281a78c7c3",
       "type": "Feature",
       "properties": {
         "title": "Vaughn Home",
@@ -447,7 +447,7 @@
         "marker-symbol": "star-stroked",
         "images": [
           [
-            "<iframe width='100' height='100' src='//www.youtube.com/embed/VkV0sgpuvWA' frameborder='0' allowfullscreen></iframe>",
+            "<iframe width='150' height='150' src='//www.youtube.com/embed/VkV0sgpuvWA' frameborder='0' allowfullscreen></iframe>",
             "YouTube Video"
           ],
           [
