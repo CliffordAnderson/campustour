@@ -22,6 +22,10 @@ All code contributed by the staff members of the Jean and Alexander Heard Librar
 
 ###Cloudant
 
+####Writing Map Functions
+
+![Map Function in Cloudant](http://i.imgur.com/qIFmrsP.png)
+
 ###Mapbox
 
 ###Leaflet
