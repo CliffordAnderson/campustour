@@ -40,7 +40,7 @@ It's easy to add individual GeoJSON features to Cloudant. To add a point, for ex
 
 Click "New Doc" and you'll generate a simple JSON document with only a single id/value pair.
 
-![[Imgur](http://i.imgur.com/fE1KDlA.png)
+![Imgur](http://i.imgur.com/fE1KDlA.png)
 
 Add your GeoJSON data within this document, making sure to preserve the "_id" key/value pair at top. (You will need to add a comma to preserve the JSON syntax.) After you've added the GeoJSON data, click on "Save". Assuming that you've saved your information correctly, you'll have added your first point. Notice that you now have a "_rev" key/attribute too. CouchDB uses the "_id" and "_rev" key/value pairs for versioning so it's important not to alter them (unless you know what you're doing).
 
