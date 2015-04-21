@@ -22,6 +22,8 @@ All code contributed by the staff members of the Jean and Alexander Heard Librar
 
 ###Cloudant
 
+IBM [Cloudant] is a hosted version of [CouchDB](http://couchdb.apache.org/). CouchDB is a document-oriented database that stores data as JSON, uses Javascript for writing Map/Reduce functions, and communicates with applications via HTTP. Cloundant provides a fast and easy way to get started with CouchDB without installing anything on your computer or setting up a server. These characteristics make it easy to store GeoJSON features in the "Cloud" and to send those features on demand to users.
+
 ####Writing Map Functions
 
 ![Map Function in Cloudant](http://i.imgur.com/qIFmrsP.png)
