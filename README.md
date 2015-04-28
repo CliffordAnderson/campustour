@@ -16,21 +16,24 @@ All code contributed by the staff members of the Jean and Alexander Heard Librar
 
 ##Installation Instructions
 
+This project runs with any web server; it does not require the use of  server-side technologies (like PHP, NodeJS, etc.). The project deploys HTML and Javascript files via HTTP to the client's device. The client then requests a base map using JSONP from Mapbox and requests the points to display (again using JSONP) from Cloudant. 
+
+![Project Architecture](http://i.imgur.com/zTF3ZiS.png?1)
+
+The project does not require the installation of any database on the server. Rather, you will need accounts at both Mapbox and Cloudant to get started.
+
 ###Prerequisites
+
+Set up an account at [Mapbox](https://www.mapbox.com) and then create a [new project](https://www.mapbox.com). After you have created a base map, copy the map ID. You will need this ID to connect your project to your map.
 
 ###GeoJSON
 
 ###Cloudant
 
-IBM [Cloudant](https://cloudant.com/) is a hosted version of [CouchDB](http://couchdb.apache.org/). CouchDB is a document-oriented database that stores data as JSON, uses Javascript for writing Map/Reduce functions, and communicates with applications via HTTP. Cloundant provides a fast and easy way to get started with CouchDB without installing anything on your computer or setting up a server. These characteristics make it easy to store GeoJSON features in the "Cloud" and to send those features on demand to users.
+IBM [Cloudant](https://cloudant.com/) is a hosted version of [CouchDB](http://couchdb.apache.org/). CouchDB is a document-oriented database that stores data as JSON, uses Javascript for writing Map/Reduce functions, and communicates with applications via HTTP. Cloundant provides a fast and easy way to get started with CouchDB without installing anything on your computer or setting up a server. These characteristics make it easy to store GeoJSON features in the "cloud" and to send those features on demand to users.
 
 ####Set Up
 
-You'll also need to make sure that you've acted [CORS](http://enable-cors.org/) or Cross-Origin Resource Sharing, which allows the Javascript in your browser to request and receive information directly from Cloundant using cross-domain HTTP requests.
-
-![Setting up CORS on Cloudant](http://i.imgur.com/PjlAYU4.png)
-
-If you don't activate CORS, you'll probably come across an error like ```XMLHttpRequest cannot load. Cross origin requests are only supported for HTTP```. If you do, make certain that you've activated CORS on your Cloundant database.
 
 ####Adding Points
 
