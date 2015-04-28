@@ -53,6 +53,8 @@ Add your GeoJSON data within this document, making sure to preserve the "_id" ke
 
 ###Mapbox
 
+[Mapbox](https://www.mapbox.com) provides an easy way to create custom maps and mapping applications.  Mapbox is free to use, as long as you stay within the 100mb storage limit and under 50,000 map views.  For most projects this should suffice.  For this project we developed a custom mapping application.  To do this, you must create a project, seelct a map, and save the project.  Onced saved, click the "Project" tab, and select the "info" tab.  Here you will find a "Map ID" that consists of your username and a combination of letters and numbers.  This key will be added to the map.js file so that the application knows where to map your GeoJson.
+
 ###Leaflet
 
 ###Bootstrap
