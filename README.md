@@ -24,7 +24,7 @@ The project does not require the installation of any database on the server. Rat
 
 ###Prerequisites
 
-Set up an account at [Mapbox](https://www.mapbox.com) and then create a [new project](https://www.mapbox.com). After you have created a base map, copy the map ID. You will need this ID to connect your project to your map.
+Set up an account at [Mapbox](https://www.mapbox.com) and then create a [new project](https://www.mapbox.com). After you have created a base map, copy the map ID. You will need this ID to connect your project to your map. You will also need to set up an account with [Cloudant](https://cloudant.com/). After you sign up for an account, click "Add New Database" to create a database to store your GeoJSON points.
 
 ###GeoJSON
 
