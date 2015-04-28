@@ -34,6 +34,7 @@ IBM [Cloudant](https://cloudant.com/) is a hosted version of [CouchDB](http://co
 
 ####Set Up
 
+Setting up Cloudant requires entering GeoJSON documents and design documents called "views." 
 
 ####Adding Points
 
@@ -49,7 +50,15 @@ Add your GeoJSON data within this document, making sure to preserve the "_id" ke
 
 ####Writing Map Functions
 
+Setting up design documetns is also straightforward. Click on the gear symbol, then select "New View." You'll be prompted to enter a name for your design document. We recommend "_design/tour" though you can *mutatis mutandis* use any name you'd like. After selecting a name for your design document, select a name for your view–for example, "Tree" to select all the documents about trees. Finally, you'll need to write a map function.
+
+**N.B.** Mapping in this context does not have anything to do with GIS; it refers to a function that is applied to all items in some sort of array. 
+
+We've written a simple map function in Cloudant to view the documents about trees. 
+
 ![Map Function in Cloudant](http://i.imgur.com/qIFmrsP.png)
+
+You don't need to write a reduce function in this case; you should leave that section empty.
 
 ###Mapbox
 
@@ -57,4 +66,5 @@ Add your GeoJSON data within this document, making sure to preserve the "_id" ke
 
 ###Bootstrap
 
+[Bootstrap](http://getbootstrap.com/) is an open source web framework designed for mobile clients. This project uses Bootstrap for its web design. The project relieves on content delivery networks (CDN) for the bootstrap files. You may customize the HTML and the CSS by overriding and adding local files.
 
