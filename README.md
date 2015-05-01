@@ -24,9 +24,52 @@ The project does not require the installation of any database on the server. Rat
 
 ###Prerequisites
 
-Set up an account at [Mapbox](https://www.mapbox.com) and then create a [new project](https://www.mapbox.com). After you have created a base map, copy the map ID. You will need this ID to connect your project to your map.
+Set up an account at [Mapbox](https://www.mapbox.com) and then create a [new project](https://www.mapbox.com). After you have created a base map, copy the map ID. You will need this ID to connect your project to your map. You will also need to set up an account with [Cloudant](https://cloudant.com/). After you sign up for an account, click "Add New Database" to create a database to store your GeoJSON points.
 
 ###GeoJSON
+
+[GeoJSON](http://geojson.org/) is the data structure through which this project is laid out.  There are many different ways of formatting GeoJSON, but in order for it to function with MapBox it must match the format show below:
+
+```JSON
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Mayborn",
+    "series": "Building",
+    "tour": "Historic",
+    "marker-size": "medium",
+    "marker-color": "#e5c278",
+    "marker-symbol": "star-stroked",
+    "images": [
+      [
+        "<img src='images/pc.bld.iabe.001.jpg' />",
+        "In 1914, Mayborn was the first building built on the new Hillsboro campus. "
+      ],
+      [
+        "<img src='images/pc.bld.iabi.003.jpg' />",
+        "This is a photo of Mayborn."
+      ],
+      [
+        "<img src='images/pc.bld.iabe.001.jpg' />",
+        "It was originally tasked for the instruction of Industrial Arts. "
+      ],
+      [
+        "<img src='images/pc.cas.smok.005.jpg' />",
+        "It was renamed in 1978 after Peabody trustee Frank W. Mayborn. "
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "-86.797808",
+      "36.142611"
+    ]
+  }
+}
+```
+
+Each point is represented as a feature and a collection of more than one point is called a "Feature Collection".  Latitude and longitudes must be done in decimal degrees.
 
 ###Cloudant
 
@@ -34,6 +77,7 @@ IBM [Cloudant](https://cloudant.com/) is a hosted version of [CouchDB](http://co
 
 ####Set Up
 
+Setting up Cloudant requires entering GeoJSON documents and design documents called "views." 
 
 ####Adding Points
 
@@ -49,12 +93,21 @@ Add your GeoJSON data within this document, making sure to preserve the "_id" ke
 
 ####Writing Map Functions
 
+Setting up design documetns is also straightforward. Click on the gear symbol, then select "New View." You'll be prompted to enter a name for your design document. We recommend "_design/tour" though you can *mutatis mutandis* use any name you'd like. After selecting a name for your design document, select a name for your view–for example, "Tree" to select all the documents about trees. Finally, you'll need to write a map function.
+
+**N.B.** Mapping in this context does not have anything to do with GIS; it refers to a function that is applied to all items in some sort of array. 
+
+We've written a simple map function in Cloudant to view the documents about trees. 
+
 ![Map Function in Cloudant](http://i.imgur.com/qIFmrsP.png)
+
+You don't need to write a reduce function in this case; you should leave that section empty.
 
 ###Mapbox
 
-###Leaflet
+[Mapbox](https://www.mapbox.com) provides an easy way to create custom maps and mapping applications.  Mapbox is free to use, as long as you stay within the 100mb storage limit and under 50,000 map views.  For most projects this should suffice.  For this project we developed a custom mapping application.  To do this, you must create a project, seelct a map, and save the project.  Onced saved, click the "Project" tab, and select the "info" tab.  Here you will find a "Map ID" that consists of your username and a combination of letters and numbers.  This key will be added to the map.js file so that the application knows where to map your GeoJson.  The [Mapbox JavaScript Library] (https://www.mapbox.com/mapbox.js/api/v2.1.9/) can be used to customize your map.  This library is built on top of [Leaflet](http://leafletjs.com/), and open soure JavaScript library.  [Leaflet](http://leafletjs.com/) is an open source JavaScript library built for creating interactive mobile maps.  If you would like to further customize the interface Leaflet offers many [examples](http://leafletjs.com/reference.html).
 
 ###Bootstrap
 
+[Bootstrap](http://getbootstrap.com/) is an open source web framework designed for mobile clients. This project uses Bootstrap for its web design. The project relieves on content delivery networks (CDN) for the bootstrap files. You may customize the HTML and the CSS by overriding and adding local files.
 
