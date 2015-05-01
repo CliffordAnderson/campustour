@@ -28,6 +28,12 @@ Set up an account at [Mapbox](https://www.mapbox.com) and then create a [new pro
 
 ###GeoJSON
 
+[GeoJson](http://geojson.org/) is the data structure through which this project is laid out.  There are many different ways of formatting GeoJSON, but in order for it to function with MapBox it must match the format show below:
+
+![GeoJSON Formatting](http://i.imgur.com/UU1GacF.jpg)
+
+Each point is represented as a feature and a collection of more than one point is called a "Feature Collection".  Latitude and longitudes must
+
 ###Cloudant
 
 IBM [Cloudant](https://cloudant.com/) is a hosted version of [CouchDB](http://couchdb.apache.org/). CouchDB is a document-oriented database that stores data as JSON, uses Javascript for writing Map/Reduce functions, and communicates with applications via HTTP. Cloundant provides a fast and easy way to get started with CouchDB without installing anything on your computer or setting up a server. These characteristics make it easy to store GeoJSON features in the "cloud" and to send those features on demand to users.
