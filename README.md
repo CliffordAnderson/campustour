@@ -28,6 +28,12 @@ Set up an account at [Mapbox](https://www.mapbox.com) and then create a [new pro
 
 ###GeoJSON
 
+[GeoJson](http://geojson.org/) is the data structure through which this project is laid out.  There are many different ways of formatting GeoJSON, but in order for it to function with MapBox it must match the format show below:
+
+![GeoJSON Formatting](http://i.imgur.com/UU1GacF.jpg)
+
+Each point is represented as a feature and a collection of more than one point is called a "Feature Collection".  Latitude and longitudes must
+
 ###Cloudant
 
 IBM [Cloudant](https://cloudant.com/) is a hosted version of [CouchDB](http://couchdb.apache.org/). CouchDB is a document-oriented database that stores data as JSON, uses Javascript for writing Map/Reduce functions, and communicates with applications via HTTP. Cloundant provides a fast and easy way to get started with CouchDB without installing anything on your computer or setting up a server. These characteristics make it easy to store GeoJSON features in the "cloud" and to send those features on demand to users.
@@ -62,7 +68,11 @@ You don't need to write a reduce function in this case; you should leave that se
 
 ###Mapbox
 
+[Mapbox](https://www.mapbox.com) provides an easy way to create custom maps and mapping applications.  Mapbox is free to use, as long as you stay within the 100mb storage limit and under 50,000 map views.  For most projects this should suffice.  For this project we developed a custom mapping application.  To do this, you must create a project, seelct a map, and save the project.  Onced saved, click the "Project" tab, and select the "info" tab.  Here you will find a "Map ID" that consists of your username and a combination of letters and numbers.  This key will be added to the map.js file so that the application knows where to map your GeoJson.  The [Mapbox JavaScript Library] (https://www.mapbox.com/mapbox.js/api/v2.1.9/) can be used to customize your map.  This library is built on top of [Leaflet](http://leafletjs.com/), and open soure JavaSCript library.  Leaflet is discussed in the next section.
+
 ###Leaflet
+
+[Leaflet](http://leafletjs.com/) is an open source JavaScript library built for creating interacrtive mobile maps.
 
 ###Bootstrap
 
