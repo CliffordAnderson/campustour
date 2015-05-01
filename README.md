@@ -28,7 +28,7 @@ Set up an account at [Mapbox](https://www.mapbox.com) and then create a [new pro
 
 ###GeoJSON
 
-[GeoJson](http://geojson.org/) is the data structure through which this project is laid out.  There are many different ways of formatting GeoJSON, but in order for it to function with MapBox it must match the format show below:
+[GeoJSON](http://geojson.org/) is the data structure through which this project is laid out.  There are many different ways of formatting GeoJSON, but in order for it to function with MapBox it must match the format show below:
 
 ```JSON
 {
@@ -105,11 +105,7 @@ You don't need to write a reduce function in this case; you should leave that se
 
 ###Mapbox
 
-[Mapbox](https://www.mapbox.com) provides an easy way to create custom maps and mapping applications.  Mapbox is free to use, as long as you stay within the 100mb storage limit and under 50,000 map views.  For most projects this should suffice.  For this project we developed a custom mapping application.  To do this, you must create a project, seelct a map, and save the project.  Onced saved, click the "Project" tab, and select the "info" tab.  Here you will find a "Map ID" that consists of your username and a combination of letters and numbers.  This key will be added to the map.js file so that the application knows where to map your GeoJson.  The [Mapbox JavaScript Library] (https://www.mapbox.com/mapbox.js/api/v2.1.9/) can be used to customize your map.  This library is built on top of [Leaflet](http://leafletjs.com/), and open soure JavaSCript library.  Leaflet is discussed in the next section.
-
-###Leaflet
-
-[Leaflet](http://leafletjs.com/) is an open source JavaScript library built for creating interactive mobile maps.
+[Mapbox](https://www.mapbox.com) provides an easy way to create custom maps and mapping applications.  Mapbox is free to use, as long as you stay within the 100mb storage limit and under 50,000 map views.  For most projects this should suffice.  For this project we developed a custom mapping application.  To do this, you must create a project, seelct a map, and save the project.  Onced saved, click the "Project" tab, and select the "info" tab.  Here you will find a "Map ID" that consists of your username and a combination of letters and numbers.  This key will be added to the map.js file so that the application knows where to map your GeoJson.  The [Mapbox JavaScript Library] (https://www.mapbox.com/mapbox.js/api/v2.1.9/) can be used to customize your map.  This library is built on top of [Leaflet](http://leafletjs.com/), and open soure JavaScript library.  [Leaflet](http://leafletjs.com/) is an open source JavaScript library built for creating interactive mobile maps.  If you would like to further customize the interface Leaflet offers many [examples](http://leafletjs.com/reference.html).
 
 ###Bootstrap
 
