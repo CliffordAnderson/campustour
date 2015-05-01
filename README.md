@@ -30,9 +30,46 @@ Set up an account at [Mapbox](https://www.mapbox.com) and then create a [new pro
 
 [GeoJson](http://geojson.org/) is the data structure through which this project is laid out.  There are many different ways of formatting GeoJSON, but in order for it to function with MapBox it must match the format show below:
 
-![GeoJSON Formatting](http://i.imgur.com/UU1GacF.jpg)
+```JSON
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Mayborn",
+    "series": "Building",
+    "tour": "Historic",
+    "marker-size": "medium",
+    "marker-color": "#e5c278",
+    "marker-symbol": "star-stroked",
+    "images": [
+      [
+        "<img src='images/pc.bld.iabe.001.jpg' />",
+        "In 1914, Mayborn was the first building built on the new Hillsboro campus. "
+      ],
+      [
+        "<img src='images/pc.bld.iabi.003.jpg' />",
+        "This is a photo of Mayborn."
+      ],
+      [
+        "<img src='images/pc.bld.iabe.001.jpg' />",
+        "It was originally tasked for the instruction of Industrial Arts. "
+      ],
+      [
+        "<img src='images/pc.cas.smok.005.jpg' />",
+        "It was renamed in 1978 after Peabody trustee Frank W. Mayborn. "
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "-86.797808",
+      "36.142611"
+    ]
+  }
+}
+```
 
-Each point is represented as a feature and a collection of more than one point is called a "Feature Collection".  Latitude and longitudes must
+Each point is represented as a feature and a collection of more than one point is called a "Feature Collection".  Latitude and longitudes must be done in decimal degrees.
 
 ###Cloudant
 
@@ -72,7 +109,7 @@ You don't need to write a reduce function in this case; you should leave that se
 
 ###Leaflet
 
-[Leaflet](http://leafletjs.com/) is an open source JavaScript library built for creating interacrtive mobile maps.
+[Leaflet](http://leafletjs.com/) is an open source JavaScript library built for creating interactive mobile maps.
 
 ###Bootstrap
 
