@@ -1,7 +1,10 @@
 // code adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/markers-with-image-slideshow/
 
+L.mapbox.accessToken =
+	'PUT YOUR PUBLIC TOKEN HERE';
+
 // If you do not have a Mapbox key, refer to the readme.md
-var map = L.mapbox.map('map', 'YOUR-MAPBOX-KEY-HERE', {
+var map = L.mapbox.map('map', 'PUT YOUR MAP ID HERE', {
 	minZoom: 12,
 	maxZoom: 19,
 	maxBounds: [
@@ -11,7 +14,7 @@ var map = L.mapbox.map('map', 'YOUR-MAPBOX-KEY-HERE', {
 });
 
 // Add custom popup html to each marker
-map.markerLayer.on('layeradd', function(e) {
+map.featureLayer.on('layeradd', function(e) {
 	var marker = e.layer;
 	var feature = marker.feature;
 	var images = feature.properties.images;
@@ -20,14 +23,16 @@ map.markerLayer.on('layeradd', function(e) {
 	for (var i = 0; i < images.length; i++) {
 		var img = images[i];
 
-		slideshowContent += '<div class="image' + (i === 0 ? ' active' : '') + '">' +
+		slideshowContent += '<div class="image' + (i === 0 ? ' active' : '') +
+			'">' +
 			img[0] +
 			'<div class="caption">' + img[1] + '</div>' +
 			'</div>';
 	}
 
 	// Create custom popup content
-	var popupContent = '<div id="' + feature.properties.id + '" class="popup">' +
+	var popupContent = '<div id="' + feature.properties.id +
+		'" class="popup">' +
 		'<h2>' + feature.properties.title + '</h2>' +
 		'<div class="slideshow">' +
 		slideshowContent +
@@ -79,18 +84,20 @@ $(function() {
 	// list views from Cloudant that we want to offer as layers
 	// Use the REST URL from Cloudant, e.g. https://vulibrarygis.cloudant.com/campustour/_design/tour
 	var cloudantViews = [];
-	$.getJSON('YOUR-REST-URL-HERE', function(result) {
-		var viewsList = result.views;
-		for (var v in viewsList) {
-			cloudantViews.push(v);
-		}
+	$.getJSON('PUT YOUR CLOUDANT URL HERE',
+		function(result) {
+			var viewsList = result.views;
+			for (var v in viewsList) {
+				cloudantViews.push(v);
+			}
 
-		// put each view into the dropdown menu
-		$.each(cloudantViews, function(i, viewname) {
-			$('#layers-dropdown').append('<option value="' + viewname + '">' +
-				viewname + '</option>');
+			// put each view into the dropdown menu
+			$.each(cloudantViews, function(i, viewname) {
+				$('#layers-dropdown').append('<option value="' + viewname +
+					'">' +
+					viewname + '</option>');
+			});
 		});
-	});
 
 	// when the user selects from the dropdown, change the layer
 	$('#layers-dropdown').change(function() {
@@ -106,10 +113,10 @@ $(function() {
 
 function getLayer(callback, cloudantView) {
 	// use the REST URL from Cloudant, e.g.
-	// https://vulibrarygis.cloudant.com/campustour/_design/tour
+	// https://vulibrarygis.cloudant.com/campustour/_design/tour/_view/
 
 	var cloudantURLbase =
-		"YOUR-URL-HERE";
+		"PUT YOUR CLOUDANT URL HERE";
 	var cloudantURLcallback = "?callback=?";
 	var thisCloudantURL = cloudantURLbase + cloudantView + cloudantURLcallback;
 	$.getJSON(thisCloudantURL, function(result) {
